@@ -28,7 +28,7 @@ def load_models():
         responses = json.load(f)
     return model, tokenizer, le, config, tag_to_kat, responses
 
-# Fungsi Preprocessing & Prediksi
+# Fungsi Preprocessing
 def clean(text):
     text = text.lower()
     text = re.sub(r'http\S+|www\S+|https\S+', '', text)
@@ -41,7 +41,6 @@ def clean(text):
 # NAVIGASI SIDEBAR
 # ==========================================
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Logo_Undana.png/200px-Logo_Undana.png", width=100)
     st.title("BIMA UNDANA")
     menu = st.radio("Navigasi Menu", ["Home", "Deskripsi", "Layanan", "Chatbot", "About Us"])
     st.markdown("---")
@@ -111,7 +110,10 @@ elif menu == "Chatbot":
         confidence = float(prob[idx])
         
         resp_list = responses.get(tag, ["Maaf, belum ada jawaban untuk pertanyaan ini."])
-        jawaban = np.random.choice(resp_list)
+        
+        # PERBAIKAN: Ambil jawaban pertama (tidak diacak lagi)
+        jawaban = resp_list[0] 
+        
         return tag, kategori, confidence, jawaban
 
     # Inisialisasi riwayat chat
