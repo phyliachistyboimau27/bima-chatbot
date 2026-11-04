@@ -1,0 +1,14 @@
+{
+  "max_len": 40,
+  "vocab_size": 518,
+  "num_classes": 39,
+  "accuracy_test_tag": 82.32,
+  "accuracy_test_kategori": 92.27,
+  "jumlah_kategori": 4,
+  "categories": [
+    "Akademik",
+    "Administrasi",
+    "Beasiswa",
+    "Organisasi"
+  ]
+}

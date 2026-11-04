@@ -1,0 +1,908 @@
+{
+  "intents": [
+    {
+      "tag": "Akreditasi_Prodi",
+      "kategori": "Akademik",
+      "patterns": [],
+      "responses": [
+        "Universitas Nusa Cendana (UNDANA) telah meraih Akreditasi Unggul dari BAN-PT berdasarkan Surat Keputusan No. 69/SK/BAN-PT/Ak/PT/II/2025, berlaku sejak 11 Februari 2025 hingga 11 Februari 2030.",
+        "UNDANA meraih Akreditasi Unggul dari BAN-PT. Informasi akreditasi program studi dapat dilihat melalui website resmi UNDANA di https://undana.ac.id/akademik/akreditasi-perguruan-tinggi/.",
+        "Akreditasi UNDANA adalah Unggul berdasarkan SK BAN-PT No. 69/SK/BAN-PT/Ak/PT/II/2025. Untuk akreditasi prodi, silakan cek di https://undana.ac.id/akademik/akreditasi-perguruan-tinggi/ atau hubungi program studi."
+      ]
+    },
+    {
+      "tag": "SIADIK",
+      "kategori": "Administrasi",
+      "patterns": [
+        "login gagal terus",
+        "password baru",
+        "akun saya terkunci",
+        "akun tidak bisa dibuka",
+        "cara ganti password",
+        "akun diblokir"
+      ],
+      "responses": [
+        "Apabila akun SIADIK terkunci atau tidak dapat diakses, segera hubungi operator program studi atau admin akademik untuk dilakukan pengecekan dan aktivasi kembali.",
+        "Akun yang terkunci biasanya memerlukan bantuan operator program studi agar dapat digunakan kembali. Siapkan NIM saat mengajukan permohonan.",
+        "Jika akun SIADIK tidak dapat digunakan, silakan menghubungi operator program studi untuk mengetahui penyebab dan solusi yang sesuai.",
+        "Apabila login gagal berulang kali hingga akun terkunci, jangan mencoba login terus-menerus. Hubungi operator program studi untuk mendapatkan bantuan.",
+        "Masalah akun SIADIK yang terkunci ditangani oleh operator program studi atau admin akademik melalui proses verifikasi identitas mahasiswa.",
+        "Apabila tersedia menu perubahan password pada akun SIADIK, mahasiswa dapat mengganti password setelah berhasil login. Jika fitur tersebut tidak tersedia, silakan menghubungi operator program studi.",
+        "Perubahan password SIADIK dapat dilakukan melalui akun mahasiswa apabila fitur tersedia. Jika mengalami kendala, hubungi operator program studi.",
+        "Untuk menjaga keamanan akun, gunakan password yang mudah diingat namun tidak mudah ditebak. Jika tidak dapat mengganti password sendiri, silakan meminta bantuan operator.",
+        "Mahasiswa dapat mengganti password SIADIK melalui sistem apabila menu tersebut tersedia. Jika tidak tersedia, perubahan password dilakukan melalui operator program studi.",
+        "Apabila ingin mengganti password SIADIK tetapi mengalami kendala, silakan menghubungi operator program studi atau admin akademik."
+      ]
+    },
+    {
+      "tag": "Alumni",
+      "kategori": "Administrasi",
+      "patterns": [
+        "cara ikut tracer study",
+        "ijazah alumni",
+        "database alumni",
+        "kegiatan alumni"
+      ],
+      "responses": [
+        "Tracer Study UNDANA adalah kegiatan menghimpun jejak alumni untuk kepentingan pemeringkatan perguruan tinggi. Seluruh alumni UNDANA di manapun berada diminta mengisi data tracer study melalui laman resmi https://alumni.undana.ac.id.",
+        "Untuk mengisi Tracer Study UNDANA, silakan akses https://alumni.undana.ac.id dan lengkapi data sesuai ketentuan. Partisipasi seluruh alumni sangat dibutuhkan untuk mendukung pemeringkatan universitas.",
+        "Ikatan Alumni UNDANA berperan aktif dalam mendukung pengembangan perguruan tinggi melalui sumbangan dana, fasilitas, masukan untuk perbaikan proses pembelajaran, dan pengembangan jejaring kerja. Informasi lebih lanjut dapat dilihat di https://undana.ac.id/alumni/.",
+        "Alumni UNDANA dapat melakukan perbaikan data pokok (NIM, nama, tempat/tanggal lahir, status lulus, nomor ijazah) di PDDIKTI melalui layanan BAK UNDANA. Silakan akses link https://bit.ly/PERBAIKAN_DATA_MAHASISWA_PDDIKTI_UNDANA_v2 atau kunjungi https://bak.undana.ac.id/home-3/perbaikan-data-alumni/.",
+        "Jenis pengajuan perbaikan data alumni di PDDIKTI meliputi: (1) Perubahan NIM, (2) Perbaikan data mahasiswa (nama, tempat/tanggal lahir), (3) Perubahan status lulus, (4) Perbaikan nomor ijazah. Informasi lengkap dapat diperoleh melalui BAK UNDANA.",
+        "Untuk legalisir ijazah alumni, silakan menghubungi BAK UNDANA atau bagian akademik fakultas. Proses legalisir mengikuti prosedur administrasi yang berlaku dan memerlukan dokumen pendukung sesuai ketentuan.",
+        "Informasi mengenai kegiatan alumni, organisasi alumni, dan layanan untuk alumni dapat diperoleh melalui website resmi UNDANA di https://undana.ac.id/alumni/ atau menghubungi unit yang menangani alumni di universitas.",
+        "Alumni UNDANA yang membutuhkan layanan perbaikan data dapat mengakses link resmi https://bit.ly/PERBAIKAN_DATA_MAHASISWA_PDDIKTI_UNDANA_v2. Pastikan seluruh dokumen pendukung telah disiapkan sebelum mengajukan permohonan.",
+        "Untuk pengisian tracer study, alumni dapat mengakses laman https://alumni.undana.ac.id. Data yang diisi akan digunakan untuk keperluan pemeringkatan perguruan tinggi dan pengembangan institusi.",
+        "Informasi mengenai alumni, tracer study, dan perbaikan data dapat diperoleh melalui: (1) Website resmi UNDANA di https://undana.ac.id/alumni/, (2) BAK UNDANA di https://bak.undana.ac.id/, (3) Laman tracer study di https://alumni.undana.ac.id, (4) Unit yang menangani alumni di universitas."
+      ]
+    },
+    {
+      "tag": "Organisasi_Mahasiswa",
+      "kategori": "Organisasi",
+      "patterns": [
+        "Apa saja syarat agar seorang mahasiswa bisa ikut dalam pemilihan keanggotaan bem dan blm?",
+        "fungsi dpm",
+        "pemilihan bem",
+        "kepengurusan bem",
+        "apa itu bem",
+        "dewan perwakilan mahasiswa"
+      ],
+      "responses": [
+        "BEM (Badan Eksekutif Mahasiswa) adalah organisasi mahasiswa tertinggi di tingkat fakultas/universitas. BLM (Badan Legislatif Mahasiswa) adalah lembaga legislatif mahasiswa.",
+        "Syarat menjadi anggota BEM/BLM: mahasiswa aktif, mengikuti proses rekrutmen, dan memenuhi ketentuan organisasi.",
+        "Informasi lebih lanjut mengenai BEM/BLM dapat diperoleh melalui pengurus organisasi atau bagian kemahasiswaan.",
+        "DPM merupakan organisasi kemahasiswaan yang memiliki fungsi representasi dan pengawasan dalam kegiatan kemahasiswaan.",
+        "HMP (Himpunan Mahasiswa Program Studi) adalah organisasi mahasiswa di tingkat program studi.",
+        "HMP berfungsi sebagai wadah pengembangan akademik, kepemimpinan, dan kegiatan kemahasiswaan.",
+        "Mahasiswa dapat bergabung dengan HMP sesuai program studi masing-masing. Informasi lebih lanjut dapat diperoleh melalui pengurus HMP.",
+        "PMK merupakan organisasi kerohanian Kristen yang mewadahi mahasiswa dalam bertumbuh dalam iman, persekutuan, dan pelayanan.",
+        "Cara bergabung dengan UKM di UNDANA: (1) Pilih UKM sesuai minat dan bakat, (2) Ikuti proses open recruitment yang diumumkan, (3) Lengkapi persyaratan pendaftaran, (4) Ikuti tahapan seleksi (jika ada)."
+      ]
+    },
+    {
+      "tag": "UKT",
+      "kategori": "Administrasi",
+      "patterns": [
+        "Bagaimana pihak undana menentukan golongan UKT bagi Mahasiswa saat pertama kali mendaftar?",
+        "pengurangan ukt",
+        "permohonan ukt",
+        "banding biaya kuliah",
+        "golongan ukt",
+        "cara mengajukan keberatan ukt"
+      ],
+      "responses": [
+        "Pembayaran UKT dilakukan melalui bank atau kanal pembayaran yang bekerja sama dengan Universitas Nusa Cendana sesuai kode pembayaran. Untuk mahasiswa baru, silakan login ke Portal UKT MABA di https://ukt.undana.ac.id menggunakan Nomor Pendaftaran (tanpa tanda strip) dan Tanggal Lahir.",
+        "Untuk mengecek tagihan UKT, mahasiswa dapat mengakses https://undana.siakadcloud.com/siakad/list_tagihanmhs atau login ke Portal UKT MABA di https://ukt.undana.ac.id. Pastikan data yang dimasukkan sudah benar.",
+        "Banding UKT merupakan permohonan peninjauan kembali besaran UKT berdasarkan kondisi ekonomi mahasiswa. Pengajuan dilakukan pada periode yang ditetapkan dengan melengkapi dokumen pendukung seperti SKTM, slip gaji orang tua, dan KK.",
+        "Prosedur banding UKT: (1) Mahasiswa mengajukan permohonan ke BAK atau fakultas, (2) Melengkapi dokumen persyaratan, (3) Mengikuti verifikasi, (4) Menunggu hasil penetapan. Jadwal dan ketentuan diumumkan melalui pengumuman resmi UNDANA.",
+        "Golongan UKT mahasiswa baru ditentukan berdasarkan data ekonomi yang diisi saat pendaftaran, meliputi penghasilan orang tua, tanggungan keluarga, dan kondisi ekonomi lainnya. Penetapan dilakukan melalui verifikasi oleh pihak universitas.",
+        "Untuk mahasiswa semester akhir dengan sisa SKS ≤ 6, dapat mengajukan pengurangan UKT sebesar 50%. Pengajuan dilakukan ke BAK atau fakultas dengan melengkapi persyaratan yang ditetapkan.",
+        "Jadwal pembayaran UKT diumumkan melalui kalender akademik dan pengumuman resmi BAK UNDANA. Pastikan pembayaran dilakukan sebelum batas waktu agar tidak dikenakan denda administrasi.",
+        "Jika terlambat membayar UKT, mahasiswa dapat mengajukan permohonan pembukaan kembali sistem pembayaran ke BAK UNDANA. Denda keterlambatan sebesar Rp50.000 akan dikenakan sesuai ketentuan yang berlaku.",
+        "Informasi mengenai penetapan UKT mahasiswa baru jalur SNBT Tahun 2026 dapat dilihat pada pengumuman resmi BAK UNDANA di https://bak.undana.ac.id. Pastikan memantau informasi terbaru secara berkala.",
+        "Untuk pembayaran UKT secara online, mahasiswa dapat menggunakan kanal pembayaran resmi yang bekerja sama dengan UNDANA. Simpan bukti pembayaran sebagai arsip verifikasi.",
+        "Jika UKT tidak muncul di sistem, pastikan Anda telah melakukan registrasi ulang dan data sudah terverifikasi. Jika masih bermasalah, hubungi operator program studi atau BAK UNDANA.",
+        "UKT dapat diangsur atau ditunda sesuai ketentuan yang berlaku. Pengajuan keringanan atau cicilan dilakukan melalui prosedur resmi dengan melengkapi dokumen pendukung kondisi ekonomi.",
+        "Untuk mengecek status pembayaran UKT, login ke https://undana.siakadcloud.com/siakad/list_tagihanmhs atau Portal UKT MABA. Status akan diperbarui setelah pembayaran terverifikasi.",
+        "Informasi lengkap mengenai UKT, termasuk besaran, jadwal, dan prosedur pembayaran, dapat diperoleh melalui: (1) BAK UNDANA, (2) Portal UKT MABA di https://ukt.undana.ac.id, (3) Operator program studi, (4) Website resmi UNDANA.",
+        "Mahasiswa yang mengalami kendala pembayaran UKT dapat menghubungi BAK UNDANA atau bagian keuangan universitas. Pastikan membawa dokumen pendukung saat mengajukan permohonan bantuan."
+      ]
+    },
+    {
+      "tag": "Cuti_Akademik",
+      "kategori": "Akademik",
+      "patterns": [
+        "cuti lewat operator",
+        "surat cuti kuliah",
+        "cuti lewat website",
+        "cuti berapa semester"
+      ],
+      "responses": [
+        "Cuti Kuliah adalah hak mahasiswa untuk tidak mengikuti kuliah maksimum 2 semester selama masa studinya. Cuti dapat diajukan sesuai ketentuan yang berlaku di Universitas Nusa Cendana.",
+        "Prosedur cuti kuliah untuk mahasiswa S1: (1) Mahasiswa membawa surat persetujuan/tidak keberatan dari orang tua, (2) Menghadap Dosen PA untuk konsultasi dan memohon rekomendasi, (3) Menyerahkan surat persetujuan orang tua yang sudah direkomendasi Dosen PA ke bagian akademik, (4) Mengisi form permohonan izin cuti, (5) Form diproses ke Pimpinan Fakultas untuk disposisi, (6) Bagian Akademik membuat Surat Izin Cuti Kuliah, (7) Surat ditandatangani Pimpinan Fakultas dan distempel, (8) Surat diserahkan ke mahasiswa.",
+        "Syarat cuti kuliah: (1) Surat persetujuan/tidak keberatan dari orang tua yang direkomendasi Dosen PA (S1), (2) Surat ajuan pribadi yang direkomendasikan koordinator prodi (S2/S3), (3) KHS semester terakhir, (4) Mengisi form permohonan izin cuti kuliah.",
+        "Dokumen yang diperlukan untuk cuti kuliah: (1) Surat persetujuan orang tua (S1) atau surat ajuan pribadi (S2/S3), (2) KHS semester lalu, (3) Form permohonan izin cuti yang telah diisi lengkap.",
+        "Selama cuti kuliah, mahasiswa tidak wajib membayar UKT sesuai kebijakan yang berlaku. Masa cuti maksimum 2 semester selama masa studi.",
+        "Untuk aktif kembali setelah cuti, mahasiswa harus melakukan registrasi ulang sesuai jadwal akademik agar statusnya kembali aktif dan dapat mengikuti perkuliahan.",
+        "Pengajuan cuti kuliah dilakukan melalui bagian akademik fakultas. Prosedur dan persyaratan dapat berbeda pada setiap fakultas atau program studi. Silakan menghubungi operator program studi untuk informasi lebih lanjut.",
+        "Prosedur cuti kuliah untuk mahasiswa S2 dan S3: (1) Mahasiswa membawa surat ajuan cuti pribadi, (2) Menghadap Koordinator Program Studi untuk memohon rekomendasi, (3) Menyerahkan surat ajuan yang sudah direkomendasikan ke bagian akademik, (4) Mengisi form permohonan izin cuti, (5) Form diproses ke Pimpinan Fakultas, (6) Surat Izin Cuti Kuliah diterbitkan."
+      ]
+    },
+    {
+      "tag": "Dosen_PA",
+      "kategori": "Akademik",
+      "patterns": [
+        "Bagaimana cara menghubungi dosen jika ada kendala akademik?",
+        "data dosen pa",
+        "Bagaimana cara menghubungi dosen pembimbing akademik?",
+        "wali akademik saya"
+      ],
+      "responses": [
+        "Informasi Dosen Pembimbing Akademik (PA) dapat dilihat melalui SIADIKNONA menggunakan akun mahasiswa. Setelah login, buka menu profil atau data akademik untuk melihat nama Dosen Pembimbing Akademik Anda.",
+        "Untuk mengetahui Dosen Pembimbing Akademik (PA), silakan login ke SIADIKNONA. Informasi tersebut tersedia pada data akademik mahasiswa.",
+        "Nama Dosen Pembimbing Akademik dapat dilihat melalui akun SIADIKNONA masing-masing mahasiswa. Jika informasi belum tersedia, silakan menghubungi operator program studi.",
+        "Mahasiswa dapat melihat informasi Dosen Pembimbing Akademik melalui SIADIKNONA. Login menggunakan akun mahasiswa kemudian buka data akademik.",
+        "Apabila ingin mengetahui siapa Dosen Pembimbing Akademik Anda, silakan login ke SIADIKNONA. Jika terdapat kendala atau data belum muncul, hubungi operator program studi."
+      ]
+    },
+    {
+      "tag": "Mata_Kuliah",
+      "kategori": "Akademik",
+      "patterns": [
+        "Bagaimana cara mengetahui ruang kuliah dan lokasi gedung setiap mata kuliah?",
+        "nama pengajar",
+        "Apa saja mata kuliah wajib untuk mahasiswa Peternakan?",
+        "lihat pengajar",
+        "siapa dosen mata kuliah",
+        "cek dosen"
+      ],
+      "responses": [
+        "Informasi dosen pengampu mata kuliah dapat dilihat melalui menu Jadwal Kuliah pada SIADIKNONA. Login menggunakan akun mahasiswa, kemudian pilih semester yang aktif untuk melihat nama dosen pengampu setiap mata kuliah.",
+        "Nama dosen pengampu dapat dilihat melalui SIADIKNONA pada menu Jadwal Kuliah. Sistem akan menampilkan mata kuliah beserta dosen yang mengampunya.",
+        "Mahasiswa dapat mengetahui dosen pengampu setiap mata kuliah melalui SIADIKNONA. Pilih menu Jadwal Kuliah setelah login menggunakan akun mahasiswa.",
+        "Apabila nama dosen pengampu belum muncul pada SIADIKNONA, mahasiswa dapat menunggu pembaruan data atau menghubungi program studi.",
+        "Informasi dosen pengampu diperbarui sesuai penjadwalan perkuliahan oleh program studi dan dapat dilihat melalui SIADIKNONA.",
+        "Informasi mata kuliah, SKS, dan bidang minat dapat dilihat melalui SIADIKNONA atau menghubungi program studi.",
+        "Batas SKS per semester ditentukan oleh IPS mahasiswa. Untuk pemilihan mata kuliah, konsultasikan dengan Dosen Pembimbing Akademik (PA).",
+        "Mata kuliah yang diambil harus sesuai dengan kurikulum program studi. Konsultasikan dengan Dosen PA sebelum mengambil mata kuliah."
+      ]
+    },
+    {
+      "tag": "Wisuda",
+      "kategori": "Akademik",
+      "patterns": [
+        "jadwal gladi",
+        "jadwal wisuda periode ini",
+        "informasi gladi",
+        "harus ikut gladi",
+        "jadwal prosesi wisuda",
+        "jadwal pendaftaran wisuda"
+      ],
+      "responses": [
+        "Gladi bersih merupakan salah satu rangkaian kegiatan yang dilaksanakan sebelum prosesi wisuda. Jadwal gladi diumumkan dalam pengumuman resmi BAK.",
+        "Peserta wisuda diharapkan mengikuti gladi bersih sesuai jadwal agar memahami tata tertib dan rangkaian prosesi wisuda.",
+        "Informasi mengenai waktu dan lokasi gladi bersih diumumkan oleh BAK pada setiap periode wisuda.",
+        "Gladi bersih bertujuan memberikan pengarahan kepada calon wisudawan mengenai jalannya prosesi wisuda sehingga pelaksanaan dapat berlangsung dengan tertib.",
+        "Pastikan mengikuti gladi bersih sesuai jadwal yang telah ditetapkan agar tidak mengalami kendala saat pelaksanaan wisuda.",
+        "Jadwal wisuda diumumkan melalui pengumuman resmi Biro Akademik dan Kemahasiswaan (BAK) Universitas Nusa Cendana pada setiap periode wisuda.",
+        "Pengumuman jadwal wisuda memuat jadwal pendaftaran, verifikasi berkas, pembagian toga, gladi bersih, pelaksanaan wisuda, hingga pengembalian toga.",
+        "Universitas Nusa Cendana menyelenggarakan wisuda sebanyak empat periode dalam satu tahun, yaitu Februari, Juni, September, dan Desember. Jadwal setiap periode diumumkan oleh BAK.",
+        "Mahasiswa disarankan memperhatikan jadwal yang diumumkan oleh BAK agar tidak melewati batas waktu pendaftaran maupun tahapan pelaksanaan wisuda.",
+        "Informasi jadwal wisuda dapat dilihat pada pengumuman resmi BAK Universitas Nusa Cendana sesuai periode wisuda yang sedang dibuka."
+      ]
+    },
+    {
+      "tag": "Nilai",
+      "kategori": "Akademik",
+      "patterns": [
+        "ipk kuliah",
+        "apa itu ips",
+        "cara menghitung ips",
+        "lihat ipk",
+        "hasil ipk",
+        "ips semester"
+      ],
+      "responses": [
+        "Indeks Prestasi Kumulatif (IPK) adalah rata-rata prestasi akademik mahasiswa yang dihitung dari seluruh mata kuliah yang telah ditempuh selama masa studi.",
+        "IPK dapat dilihat melalui SIADIK pada menu hasil studi atau transkrip akademik setelah login menggunakan akun mahasiswa.",
+        "Nilai IPK akan terus berubah apabila terdapat penambahan nilai pada semester berikutnya atau adanya perbaikan nilai sesuai ketentuan yang berlaku.",
+        "IPK dihitung berdasarkan jumlah mutu seluruh mata kuliah dibagi dengan total SKS yang telah ditempuh mahasiswa.",
+        "Mahasiswa dapat memantau perkembangan IPK setiap semester melalui SIADIK sebagai salah satu indikator prestasi akademik.",
+        "Indeks Prestasi Semester (IPS) adalah nilai rata-rata prestasi akademik mahasiswa yang dihitung berdasarkan mata kuliah yang ditempuh pada satu semester tertentu.",
+        "IPS dapat dilihat melalui KHS pada semester yang diinginkan setelah mahasiswa login ke SIADIK.",
+        "Nilai IPS dihitung dari total mutu mata kuliah yang diambil pada semester tersebut dibagi dengan jumlah SKS semester tersebut.",
+        "IPS berbeda dengan IPK. IPS hanya menghitung prestasi pada satu semester, sedangkan IPK menghitung seluruh semester yang telah ditempuh.",
+        "Mahasiswa dapat melihat IPS melalui menu KHS atau hasil studi pada SIADIK."
+      ]
+    },
+    {
+      "tag": "Ijazah",
+      "kategori": "Akademik",
+      "patterns": [
+        "pengumuman yudisium",
+        "lulus kuliah",
+        "status yudisium",
+        "cara mengambil ijazah",
+        "pengambilan ijazah",
+        "ijazah dimana"
+      ],
+      "responses": [
+        "Pengambilan ijazah di UNDANA dilakukan di BAK UNDANA setelah mahasiswa dinyatakan lulus yudisium. Pastikan seluruh kewajiban akademik dan administrasi telah diselesaikan sebelum pengambilan.",
+        "Untuk mengambil ijazah, mahasiswa harus membawa KTM, bukti bebas pustaka, bukti bebas laboratorium, dan bukti pelunasan UKT. Syarat lengkap diumumkan melalui BAK UNDANA.",
+        "Jika ijazah belum keluar, mahasiswa dapat menanyakan statusnya ke BAK UNDANA atau program studi. Proses penerbitan ijazah membutuhkan waktu setelah yudisium dan sinkronisasi data PDDIKTI.",
+        "Jika ijazah hilang, mahasiswa harus membuat surat kehilangan dari kepolisian, lalu mengajukan permohonan penggantian ke BAK UNDANA dengan melampirkan dokumen pendukung.",
+        "Jika ijazah rusak, mahasiswa dapat mengajukan penggantian ke BAK UNDANA dengan membawa ijazah rusak dan mengisi formulir permohonan penggantian.",
+        "Untuk legalisir ijazah, mahasiswa dapat mengajukan ke BAK UNDANA atau bagian akademik fakultas dengan membawa ijazah asli dan fotokopi sesuai kebutuhan.",
+        "SKPI (Surat Keterangan Pendamping Ijazah) diterbitkan oleh program studi atau fakultas. Mahasiswa dapat mengajukan SKPI setelah dinyatakan lulus dengan melengkapi dokumen kegiatan akademik dan non-akademik.",
+        "Pengumuman kelulusan dan yudisium diumumkan melalui website resmi UNDANA, pengumuman fakultas, atau program studi. Mahasiswa disarankan memantau kanal informasi resmi.",
+        "Untuk mengecek status kelulusan, mahasiswa dapat login ke SIADIKNONA atau menghubungi operator program studi. Status akan diperbarui setelah proses yudisium selesai.",
+        "Cek kelulusan juga dapat dilakukan melalui pengumuman resmi BAK UNDANA di https://bak.undana.ac.id atau melalui program studi masing-masing.",
+        "Jika terdapat kesalahan data pada ijazah (nama, NIM, tanggal lahir), segera laporkan ke BAK UNDANA untuk proses perbaikan sebelum ijazah dicetak.",
+        "Informasi lengkap mengenai ijazah, kelulusan, dan SKPI dapat diperoleh melalui: (1) BAK UNDANA di https://bak.undana.ac.id, (2) Program studi, (3) Website resmi UNDANA di https://undana.ac.id."
+      ]
+    },
+    {
+      "tag": "Informasi_Umum",
+      "kategori": "Administrasi",
+      "patterns": [
+        "Bagaimana cara mengakses e-learning kampus?"
+      ],
+      "responses": [
+        "Informasi umum mengenai UNDANA: (1) Visi misi UNDANA dapat dilihat di website resmi, (2) Struktur organisasi UNDANA tersedia di website, (3) Fasilitas laboratorium FPKP dapat diakses oleh mahasiswa FPKP sesuai jadwal.",
+        "Kebijakan kampus mengikuti ketentuan yang berlaku. Informasi lebih lanjut dapat diperoleh melalui website resmi UNDANA.",
+        "Untuk informasi umum mengenai UNDANA, silakan kunjungi website resmi https://undana.ac.id atau hubungi bagian akademik.",
+        "E-learning kampus dapat diakses melalui website resmi UNDANA atau platform yang disediakan oleh universitas.",
+        "Untuk login e-learning, gunakan akun mahasiswa yang telah diberikan. Jika mengalami kendala, hubungi operator program studi.",
+        "Informasi lebih lanjut mengenai e-learning dapat diperoleh melalui bagian ICT UNDANA atau operator program studi."
+      ]
+    },
+    {
+      "tag": "Jadwal_Kuliah",
+      "kategori": "Akademik",
+      "patterns": [
+        "Jadwal UTS",
+        "kelas saya hari ini",
+        "jadwal offline",
+        "jadwal perkuliahan",
+        "jadwal kelas",
+        "tahun akademik"
+      ],
+      "responses": [
+        "Jadwal perkuliahan dapat dilihat melalui SIADIKNONA Universitas Nusa Cendana di https://siadiknona.undana.ac.id/gate/login. Login menggunakan akun mahasiswa, kemudian pilih menu Jadwal Kuliah untuk melihat jadwal semester yang sedang aktif.",
+        "Untuk melihat jadwal kuliah, silakan login ke SIADIKNONA. Setelah berhasil masuk, pilih menu Jadwal Kuliah. Sistem akan menampilkan mata kuliah, hari, jam, ruang kuliah, dan dosen pengampu.",
+        "Mahasiswa dapat mengakses jadwal perkuliahan melalui SIADIKNONA menggunakan akun masing-masing. Pilih menu Jadwal Kuliah untuk melihat jadwal pada semester aktif.",
+        "Informasi jadwal kuliah tersedia pada SIADIKNONA Universitas Nusa Cendana. Setelah login, buka menu Jadwal Kuliah untuk mengetahui jadwal perkuliahan yang telah ditetapkan.",
+        "Apabila terdapat perubahan jadwal perkuliahan, mahasiswa disarankan untuk selalu memeriksa menu Jadwal Kuliah pada SIADIKNONA atau mengikuti pengumuman dari program studi.",
+        "Kalender akademik berisi informasi mengenai jadwal perkuliahan, KRS, UTS, UAS, registrasi, dan kegiatan akademik lainnya. Silakan lihat kalender akademik terbaru yang diterbitkan universitas.",
+        "Presensi atau kehadiran perkuliahan dapat dilihat melalui SIADIKNONA apabila fitur tersebut tersedia untuk mahasiswa. Mahasiswa juga dapat mengonfirmasi kehadiran kepada dosen pengampu apabila terdapat perbedaan data.",
+        "Untuk mengetahui jumlah kehadiran, silakan login ke SIADIKNONA dan buka menu Presensi apabila tersedia. Jika terdapat ketidaksesuaian data, segera hubungi dosen pengampu mata kuliah.",
+        "Data presensi mahasiswa mengikuti hasil pencatatan kehadiran pada setiap perkuliahan. Apabila terdapat kesalahan data, mahasiswa dapat menghubungi dosen pengampu untuk dilakukan pengecekan.",
+        "Informasi kehadiran kuliah dapat diakses melalui SIADIKNONA atau sesuai mekanisme yang diterapkan pada masing-masing mata kuliah."
+      ]
+    },
+    {
+      "tag": "KKN",
+      "kategori": "Akademik",
+      "patterns": [
+        "kkn semester berapa",
+        "info kkn",
+        "kkn undana",
+        "pendaftaran kkn"
+      ],
+      "responses": [
+        "KKN (Kuliah Kerja Nyata) adalah kegiatan pengabdian mahasiswa kepada masyarakat yang dikoordinasikan oleh Pusat Layanan KKN di bawah LP2M Universitas Nusa Cendana. KKN bertujuan mentransformasikan kepakaran akademis mahasiswa ke dalam program pemberdayaan masyarakat.",
+        "Pusat Layanan KKN LP2M UNDANA menyelenggarakan beberapa skema KKN Tematik: (1) KKN Tematik Desa Binaan & Stunting, (2) KKN Kawasan Perbatasan (RI-RDTL), (3) KKN Pertanian Lahan Kering & Ekoturisme, (4) KKN Kebencanaan & Tanggap Iklim.",
+        "Untuk mendaftar KKN UNDANA, mahasiswa dapat mengakses portal pendaftaran resmi di https://bit.ly/KKN_AlihSemester_2026-2027 atau melalui Sistem Informasi KKN (SIM KKN) LP2M UNDANA. Pastikan melengkapi berkas administrasi sesuai ketentuan.",
+        "Tahapan pelaksanaan KKN UNDANA: (1) Pendaftaran & Verifikasi Berkas, (2) Pembekalan KKN Tematik, (3) Observasi Lapangan & Penyusunan Program Kerja, (4) Penerjunan & Pelaksanaan Program, (5) Monitoring, Evaluasi & Laporan Akhir.",
+        "Syarat dan berkas pendaftaran KKN UNDANA meliputi: (1) Mahasiswa aktif yang telah memenuhi syarat SKS, (2) Melengkapi berkas administrasi, (3) Mengikuti pembekalan wajib KKN, (4) Terdaftar dalam SIM KKN. Informasi lengkap dapat dilihat di https://lp2m.undana.ac.id/pusat-layanan-kuliah-kerja-nyata/.",
+        "Informasi lokasi KKN UNDANA diumumkan melalui website LP2M di https://lp2m.undana.ac.id/category/pengumuman-kkn/. Mahasiswa yang telah ditempatkan diharapkan segera menghubungi Dosen Pembimbing Lapangan (DPL) masing-masing.",
+        "Untuk informasi lebih lanjut mengenai KKN UNDANA, silakan menghubungi admin KKN LP2M UNDANA pada hari/jam kerja, atau akses website resmi https://lp2m.undana.ac.id/.",
+        "Setiap kelompok KKN UNDANA didampingi oleh Dosen Pembimbing Lapangan (DPL) yang bertugas membimbing, memantau, dan menilai kegiatan KKN mahasiswa di lokasi. Mahasiswa dapat berkoordinasi dengan DPL untuk keberangkatan dan pelaksanaan program.",
+        "Biaya KKN UNDANA mencakup pembayaran baju kaos dan jaminan sosial calon peserta KKN. Informasi mengenai biaya dan tata cara pembayaran diumumkan melalui pengumuman resmi LP2M UNDANA.",
+        "Informasi lengkap mengenai KKN UNDANA, termasuk buku pedoman, format logbook, laporan akhir, dan SOP KKN, dapat diakses melalui website resmi LP2M UNDANA di https://lp2m.undana.ac.id/pusat-layanan-kuliah-kerja-nyata/."
+      ]
+    },
+    {
+      "tag": "KP_Magang",
+      "kategori": "Akademik",
+      "patterns": [
+        "magang",
+        "konversi berapa sks jika mengikuti magang",
+        "Bagaimana cara mendaftar program magang",
+        "prosedur magang",
+        "magang bisa sekalian dengan skripsi"
+      ],
+      "responses": [
+        "Kerja Praktek (KP) atau Magang adalah mata kuliah keahlian (MKK) yang merupakan persyaratan dalam menempuh pendidikan tingkat sarjana (S1). KP bertujuan untuk mengenalkan dunia industri dari sisi teknis maupun non teknis serta keterkaitannya dengan materi perkuliahan.",
+        "Prosedur KP/Magang: (1) Mahasiswa mengajukan permohonan KP ke program studi, (2) Menentukan perusahaan/instansi tujuan, (3) Mengurus surat izin KP, (4) Melaksanakan KP sesuai jadwal, (5) Menyusun laporan KP, (6) Mengikuti Seminar KP.",
+        "Syarat mengikuti KP/Magang: (1) Mahasiswa telah menempuh minimal 4 semester, (2) Memperoleh minimal 90 SKS, (3) Mengajukan permohonan ke program studi, (4) Melengkapi berkas administrasi. Syarat dapat berbeda di setiap program studi.",
+        "Durasi KP/Magang bervariasi tergantung program studi: (1) Teknik Sipil: minimal 1 bulan, (2) Akuntansi: 1 bulan atau 20 hari kerja (setara 2 SKS), (3) Teknik Mesin: 3 bulan, (4) Program Magang Berdampak: 3-4 bulan (setara 20 SKS).",
+        "Tempat pelaksanaan KP/Magang dapat dilakukan di industri, perusahaan, instansi pemerintah, atau Usaha Kecil yang berkaitan dengan bidang ilmu program studi. Mahasiswa dapat memilih lokasi magang sesuai ketentuan yang berlaku.",
+        "Konversi SKS untuk KP/Magang berbeda di setiap program studi: (1) Akuntansi: 2 SKS, (2) Program Magang Berdampak FST: 20 SKS, (3) Program studi lain: sesuai ketentuan masing-masing. Silakan hubungi program studi untuk informasi lebih lanjut.",
+        "Untuk mendaftar KP/Magang, mahasiswa mengajukan permohonan ke program studi dengan melengkapi persyaratan administrasi. Jadwal pendaftaran dan pelaksanaan diumumkan melalui program studi masing-masing.",
+        "Mahasiswa diwajibkan menyusun Laporan KP/Magang serta mempresentasikannya pada Seminar KP. KP dinyatakan selesai setelah mahasiswa mendapatkan kitir nilai KP dari program studi.",
+        "Program Magang Berdampak FST UNDANA merupakan program magang yang mengintegrasikan pengabdian masyarakat dengan penanganan bencana. Contoh: Magang Berdampak Peduli Bencana Gempa Flores di Maumere dan Ende, bekerja sama dengan BWS Bali Nusra dan Dinas ESDM NTT.",
+        "Informasi lebih lanjut mengenai KP/Magang dapat diperoleh melalui: (1) Program studi masing-masing, (2) Website resmi fakultas/program studi, (3) Buku Panduan Kerja Praktek, (4) Operator akademik fakultas."
+      ]
+    },
+    {
+      "tag": "KRS",
+      "kategori": "Akademik",
+      "patterns": [
+        "hapus mata kuliah",
+        "Kapan Pengisian KRS akan di buka?",
+        "Kapan pengisian dan batas pengisian krs",
+        "membatalkan krs",
+        "Kapan jadwal KRS dibagi",
+        "Bagaimana cara pengisian KRS ?"
+      ],
+      "responses": [
+        "Pembatalan mata kuliah dapat dilakukan melalui SIADIKNONA selama masa revisi KRS. Apabila KRS belum disetujui oleh Dosen Pembimbing Akademik (PA), mahasiswa dapat langsung menghapus mata kuliah yang diinginkan. Namun, apabila KRS sudah disetujui, mahasiswa harus menghubungi operator program studi untuk membatalkan persetujuan KRS terlebih dahulu. Setelah persetujuan dibatalkan, mahasiswa dapat menghapus atau memilih kembali mata kuliah yang diinginkan melalui SIADIKNONA.",
+        "Jika KRS belum disetujui oleh Dosen Pembimbing Akademik (PA), mata kuliah dapat langsung dibatalkan melalui menu KRS di SIADIKNONA. Apabila KRS sudah disetujui, mahasiswa harus meminta bantuan operator program studi untuk membatalkan persetujuan KRS agar perubahan dapat dilakukan kembali.",
+        "Penghapusan mata kuliah dilakukan melalui SIADIKNONA pada masa revisi KRS. Jika status KRS masih belum disetujui, mahasiswa dapat langsung melakukan perubahan. Jika KRS sudah disetujui, persetujuan tersebut harus dibatalkan terlebih dahulu oleh operator program studi sebelum mahasiswa dapat menghapus atau mengganti mata kuliah.",
+        "Mahasiswa dapat membatalkan mata kuliah selama masa revisi KRS melalui SIADIKNONA. Untuk KRS yang telah disetujui oleh Dosen Pembimbing Akademik (PA), mahasiswa perlu menghubungi operator program studi agar persetujuan dibatalkan terlebih dahulu. Setelah itu, perubahan KRS dapat dilakukan kembali.",
+        "Apabila ingin membatalkan atau mengganti mata kuliah, login ke SIADIKNONA melalui https://siadiknona.undana.ac.id/gate/login. Jika KRS sudah mendapat persetujuan dari Dosen Pembimbing Akademik (PA), mahasiswa harus menghubungi operator program studi untuk membatalkan persetujuan tersebut. Setelah status KRS kembali dapat diedit, mahasiswa dapat menghapus atau memilih ulang mata kuliah sesuai kebutuhan.",
+        "Jadwal pengisian KRS diumumkan melalui Kalender Akademik UNDANA. Pengisian KRS dilakukan melalui SIADIKNONA di https://siadiknona.undana.ac.id/gate/login.",
+        "Pengisian KRS dilakukan sesuai jadwal pada Kalender Akademik. Login ke SIADIKNONA untuk mengisi KRS. Jika terlambat, segera hubungi operator program studi.",
+        "Jadwal KRS dapat dilihat pada Kalender Akademik UNDANA. Pastikan mengisi KRS sesuai jadwal yang ditetapkan. Untuk kendala, hubungi operator program studi.",
+        "Jika mengalami kendala KRS: (1) Pastikan koneksi stabil, (2) Coba login ulang, (3) Jika lupa password, hubungi operator program studi, (4) Jika mata kuliah bentrok, konsultasikan dengan Dosen PA.",
+        "Kendala KRS seperti error, bentrok, atau lupa password dapat diatasi dengan menghubungi operator program studi. Untuk perubahan KRS yang sudah disetujui, hubungi operator program studi."
+      ]
+    },
+    {
+      "tag": "KTM",
+      "kategori": "Administrasi",
+      "patterns": [
+        "informasi ktm",
+        "Cara mengurus KTM hilang/rusak di UNDANA?",
+        "ktm baru",
+        "kartu tanda mahasiswa"
+      ],
+      "responses": [
+        "KTM (Kartu Tanda Mahasiswa) adalah kartu identitas resmi mahasiswa Universitas Nusa Cendana yang digunakan untuk berbagai keperluan akademik dan administrasi.",
+        "Untuk mendapatkan KTM di UNDANA, mahasiswa baru dapat mengambilnya di Kantor BPU UNDANA setelah melakukan registrasi dan melengkapi persyaratan administrasi. Informasi lebih lanjut dapat dilihat di https://bpu.undana.ac.id/.",
+        "Pengambilan Jas Almamater UNDANA dilakukan di Kantor BPU UNDANA. Untuk mahasiswa baru Tahun Ajaran 2023, jas almamater ukuran S, M, L, XL, dan XXL tersedia dan dapat diambil mulai Senin, 23 Oktober 2023 pukul 09.00.",
+        "Jika KTM hilang atau rusak, mahasiswa dapat mengurus penggantian KTM melalui BPU UNDANA atau bagian akademik fakultas. Siapkan dokumen pendukung seperti surat kehilangan dari kepolisian (jika hilang) dan KTM lama (jika rusak).",
+        "Untuk mahasiswa yang belum pernah mengambil almamater meskipun sudah semester 4 atau 5, silakan menghubungi BPU UNDANA untuk menanyakan ketersediaan dan jadwal pengambilan. Almamater biasanya masih dapat diambil selama stok tersedia.",
+        "Informasi mengenai ketersediaan jas almamater UNDANA dapat dilihat melalui website BPU UNDANA di https://bpu.undana.ac.id/. Pastikan memantau pengumuman terbaru mengenai jadwal pengambilan.",
+        "Untuk mencetak atau membuat KTM baru, mahasiswa dapat menghubungi BPU UNDANA atau bagian akademik fakultas. Proses pencetakan KTM memerlukan data mahasiswa yang sudah terverifikasi di sistem akademik.",
+        "Jika KTM belum jadi atau belum diterima, silakan menanyakan status KTM ke BPU UNDANA atau operator program studi. Pastikan data mahasiswa sudah lengkap dan terverifikasi.",
+        "KTM digunakan untuk berbagai keperluan seperti: (1) Identitas saat mengikuti ujian, (2) Peminjaman buku di perpustakaan, (3) Akses layanan akademik, (4) Keperluan administrasi lainnya. Pastikan KTM selalu dibawa saat berada di lingkungan kampus.",
+        "Untuk informasi lebih lanjut mengenai KTM dan almamater UNDANA, silakan menghubungi: (1) BPU UNDANA di https://bpu.undana.ac.id/, (2) Bagian akademik fakultas, (3) Operator program studi."
+      ]
+    },
+    {
+      "tag": "Kegiatan_Kampus",
+      "kategori": "Organisasi",
+      "patterns": [
+        "Lomba apa saja yang bisa diikuti, persyaratannya apa?",
+        "Cara mengikuti lomba lomba"
+      ],
+      "responses": [
+        "Informasi lomba dan kegiatan organisasi di UNDANA dapat diperoleh melalui: (1) Media sosial resmi UNDANA dan fakultas, (2) Grup WhatsApp angkatan/prodi, (3) Papan pengumuman fakultas, (4) Bagian kemahasiswaan fakultas, (5) Website resmi UNDANA di https://undana.ac.id/.",
+        "Untuk mengetahui lomba yang sedang diselenggarakan, mahasiswa dapat memantau: (1) Instagram resmi @undanaofficial, (2) Media sosial BEM dan UKM, (3) Pengumuman dari program studi, (4) Grup WhatsApp angkatan. Pastikan selalu update informasi terbaru.",
+        "Lomba yang bisa diikuti mahasiswa UNDANA meliputi: (1) Lomba karya tulis ilmiah, (2) Lomba inovasi teknologi, (3) Lomba debat, (4) Lomba olahraga, (5) Lomba seni, (6) Lomba kewirausahaan, (7) Lomba bidang studi sesuai program studi. Setiap lomba memiliki persyaratan yang berbeda.",
+        "Untuk mendaftar lomba tingkat universitas, mahasiswa dapat: (1) Membaca pengumuman resmi lomba, (2) Melengkapi persyaratan administrasi, (3) Mendaftar melalui link yang disediakan, (4) Mengikuti seleksi/tahapan lomba. Informasi lebih lanjut dapat diperoleh melalui bagian kemahasiswaan.",
+        "Kegiatan ekstrakurikuler di UNDANA diwadahi oleh UKM (Unit Kegiatan Mahasiswa) yang meliputi bidang: (1) Olahraga, (2) Seni dan budaya, (3) Kerohanian, (4) Penalaran dan riset, (5) Khusus (Pramuka, Menwa, KSR). Mahasiswa dapat bergabung sesuai minat dan bakat.",
+        "Syarat mengikuti lomba karya teknologi biasanya meliputi: (1) Mahasiswa aktif UNDANA, (2) Memiliki proposal/karya yang sesuai tema, (3) Berkelompok atau individu sesuai ketentuan, (4) Melengkapi dokumen pendaftaran. Persyaratan detail dapat berbeda tergantung penyelenggara lomba.",
+        "Kegiatan rutin yang diadakan FISIP UNDANA antara lain: (1) Seminar nasional, (2) FISIP Festival, (3) Pelatihan kepemimpinan mahasiswa, (4) Bakti sosial, (5) Kompetisi antar program studi, (6) Kuliah umum dengan praktisi. Jadwal kegiatan diumumkan setiap semester.",
+        "Syarat mengikuti lomba inovasi peternakan umumnya meliputi: (1) Mahasiswa aktif program studi terkait, (2) Memiliki ide/karya inovasi di bidang peternakan, (3) Melengkapi proposal sesuai ketentuan, (4) Siap mempresentasikan karya. Informasi lebih lanjut dapat diperoleh melalui program studi.",
+        "Kegiatan pengabdian masyarakat yang bisa diikuti mahasiswa UNDANA meliputi: (1) KKN (Kuliah Kerja Nyata), (2) Program Magang Berdampak, (3) Bakti sosial organisasi, (4) Program pengabdian dosen-mahasiswa, (5) Kegiatan kerelawanan bencana. Informasi dapat diperoleh melalui LP2M atau program studi.",
+        "Untuk mengikuti kegiatan kampus, mahasiswa dapat: (1) Memantau pengumuman resmi, (2) Menghubungi bagian kemahasiswaan, (3) Bergabung dengan organisasi/UKM, (4) Mengikuti media sosial resmi kampus, (5) Bertanya kepada senior atau pengurus organisasi."
+      ]
+    },
+    {
+      "tag": "Skripsi",
+      "kategori": "Akademik",
+      "patterns": [
+        "ambil tugas akhir",
+        "Apa saja syarat untuk mengajukan seminar proposal, seminar hasil, atau ujian skripsi",
+        "Bagaimana prosedur untuk seminar di prodi teknik elektro?",
+        "Persyaratan seminar proposal di undana",
+        "judul skripsi",
+        "cara mulai skripsi"
+      ],
+      "responses": [
+        "Skripsi adalah karya tulis ilmiah yang wajib disusun mahasiswa S1 sebagai salah satu syarat memperoleh gelar sarjana. Skripsi merupakan hasil penelitian ilmiah yang dibimbing oleh dosen pembimbing dan diuji oleh tim penguji.",
+        "Prosedur pengajuan skripsi dapat berbeda di setiap program studi. Umumnya mahasiswa mengajukan outline/topik penelitian, kemudian program studi menilai dan menyetujui judul. Setelah judul disetujui, operator menerbitkan Surat Tugas Pembimbing.",
+        "Syarat mengambil skripsi umumnya meliputi: (1) Mahasiswa aktif, (2) Telah menempuh sejumlah SKS tertentu (biasanya minimal 100-120 SKS), (3) IPK minimal sesuai ketentuan, (4) Lulus mata kuliah metodologi penelitian. Syarat detail dapat berbeda di setiap program studi.",
+        "Skripsi umumnya dapat diambil pada semester 7 atau 8, tergantung ketentuan program studi. Mahasiswa disarankan berkonsultasi dengan Dosen Pembimbing Akademik (PA) sebelum mengambil skripsi.",
+        "Tahapan skripsi umumnya meliputi: (1) Pengajuan judul/outline, (2) Penetapan dosen pembimbing, (3) Bimbingan proposal, (4) Seminar Proposal, (5) Penelitian, (6) Bimbingan hasil, (7) Seminar Hasil, (8) Ujian Skripsi, (9) Revisi.",
+        "Seminar Proposal adalah tahap mempresentasikan rencana penelitian sebelum penelitian dilaksanakan. Mahasiswa harus memenuhi persyaratan akademik dan administrasi serta memperoleh persetujuan dosen pembimbing.",
+        "Persyaratan Seminar Proposal umumnya meliputi: (1) Proposal penelitian yang telah disetujui pembimbing, (2) Kartu bimbingan, (3) Transkrip nilai sementara, (4) Bukti pembayaran UKT, (5) Berkas administrasi lainnya. Persyaratan dapat berbeda di setiap program studi.",
+        "Prosedur pendaftaran Seminar Proposal: (1) Mahasiswa menyelesaikan proposal dan memperoleh persetujuan pembimbing, (2) Mendaftar ke program studi dengan melengkapi berkas, (3) Program studi menjadwalkan seminar, (4) Seminar dilaksanakan di hadapan dosen pembimbing dan penguji.",
+        "Seminar Hasil dilaksanakan setelah mahasiswa menyelesaikan penelitian dan memperoleh persetujuan dosen pembimbing. Seminar ini mempresentasikan hasil penelitian sebelum ujian skripsi.",
+        "Persyaratan Seminar Hasil umumnya meliputi: (1) Draft skripsi lengkap, (2) Kartu bimbingan, (3) Bukti penelitian, (4) Transkrip nilai sementara, (5) Berkas administrasi lainnya. Persyaratan dapat berbeda di setiap program studi.",
+        "Prosedur pendaftaran Seminar Hasil: (1) Mahasiswa menyelesaikan penelitian dan draft skripsi, (2) Memperoleh persetujuan pembimbing, (3) Mendaftar ke program studi, (4) Program studi menjadwalkan seminar, (5) Seminar dilaksanakan di hadapan tim penguji.",
+        "Ujian Skripsi (disebut juga Ujian Pendadaran) adalah tahap akhir penyelesaian studi, di mana mahasiswa mempertanggungjawabkan hasil penelitiannya di hadapan tim penguji.",
+        "Persyaratan Ujian Skripsi umumnya meliputi: (1) Skripsi yang telah disetujui pembimbing, (2) Surat persetujuan pembimbing untuk ujian, (3) Transkrip nilai sementara, (4) Bukti pelunasan UKT, (5) Berkas administrasi ujian. Persyaratan dapat berbeda di setiap program studi.",
+        "Prosedur pendaftaran Ujian Skripsi: (1) Mahasiswa meminta surat persetujuan pembimbing, (2) Mendaftar ke program studi dengan melengkapi dokumen, (3) Program studi memverifikasi berkas, (4) Ketua program studi menetapkan jadwal dan tim penguji, (5) Ujian dilaksanakan sesuai jadwal.",
+        "Tim penguji ujian skripsi umumnya terdiri dari 3 orang dosen dengan komposisi yang diatur oleh program studi. Ujian dipimpin oleh Ketua Tim Penguji dan wajib dihadiri oleh mahasiswa serta seluruh tim penguji/pembimbing.",
+        "Revisi skripsi dilakukan sesuai arahan dosen pembimbing dan dosen penguji setelah ujian skripsi. Masa perbaikan skripsi maksimal 3 bulan. Jika melewati batas waktu, kelulusan ujian skripsi dapat dibatalkan.",
+        "Mahasiswa yang gagal ujian skripsi diperkenankan mengikuti ujian ulang sampai 2 kali sepanjang masa studi. Ujian ulang dilaksanakan selambat-lambatnya 3 bulan setelah ujian sebelumnya.",
+        "Format penulisan skripsi mengikuti pedoman yang ditetapkan oleh masing-masing program studi. Sistematika umum meliputi: Bagian Awal (sampul, judul, persetujuan, abstrak, daftar isi), Bagian Utama (BAB I-V), dan Bagian Akhir (daftar pustaka, lampiran).",
+        "Referensi dan jurnal untuk skripsi dapat diakses melalui: (1) Perpustakaan UNDANA di https://perpustakaan.undana.ac.id/, (2) Repository UNDANA, (3) Database jurnal online yang dilanggan universitas, (4) Google Scholar.",
+        "Informasi lengkap mengenai prosedur skripsi, seminar proposal, seminar hasil, dan ujian skripsi dapat diperoleh melalui: (1) Program studi masing-masing, (2) Dosen Pembimbing Akademik (PA), (3) Buku Pedoman Penulisan Skripsi program studi, (4) Operator akademik fakultas."
+      ]
+    },
+    {
+      "tag": "Registrasi",
+      "kategori": "Administrasi",
+      "patterns": [
+        "Bagaimana prosedur registrasinya?",
+        "terlambat registrasi",
+        "registrasi kuliah",
+        "registrasi online",
+        "registrasi ulang dimana",
+        "cara daftar ulang"
+      ],
+      "responses": [
+        "Registrasi awal adalah proses wajib bagi calon mahasiswa baru yang telah dinyatakan lulus seleksi (SNBP, SNBT, atau mandiri) untuk memperoleh status sebagai mahasiswa aktif Universitas Nusa Cendana.",
+        "Untuk mahasiswa baru jalur SNBT 2026, pendaftaran ulang dilaksanakan secara daring mulai 27 Mei hingga 6 Juni 2026. Akses melalui https://undana.ac.id/admissions/snbt/ atau https://bak.undana.ac.id/pengumuman/snbt/ dengan username: nomor pendaftaran SNBT, password: tanggal lahir (format YYYY-MM-DD).",
+        "Berkas yang harus diunggah saat registrasi mahasiswa baru: (1) KTP dan Kartu Keluarga, (2) Bukti tagihan listrik 3 bulan terakhir, (3) Slip gaji/surat keterangan penghasilan orang tua, (4) PBB dan foto kondisi tempat tinggal, (5) Dokumen KIP-K (jika ada).",
+        "Bagi mahasiswa baru jalur SNBP 2026 yang terlambat, UNDANA memperpanjang masa lapor diri hingga 30 April 2026. Ini merupakan kesempatan terakhir. Jika melewati batas, status kelulusan dapat dibatalkan.",
+        "Jika terlambat registrasi dan portal sudah ditutup, mahasiswa akan diarahkan ke BAK UNDANA. Operator akan membuka portal registrasi mahasiswa selama 24 jam, dan akan dikenakan biaya tambahan sebesar Rp50.000. Segera hubungi BAK untuk proses lebih lanjut.",
+        "Her-registrasi (registrasi ulang) adalah proses registrasi yang dilakukan mahasiswa aktif setiap awal semester. Her-registrasi menjadi syarat sebelum pengisian KRS dan mengikuti perkuliahan.",
+        "Prosedur her-registrasi: (1) Mahasiswa melakukan pembayaran UKT, (2) Login ke SIADIKNONA, (3) Pilih menu registrasi, (4) Ikuti petunjuk yang tersedia. Pastikan registrasi dilakukan sebelum batas waktu yang ditetapkan.",
+        "Jika mengalami kendala teknis saat registrasi online, hubungi layanan konsultasi via WhatsApp: 081336035968 (Ibu Ika) atau 081236116579 (Ibu Yanti).",
+        "Konsekuensi tidak melakukan registrasi hingga batas waktu: calon mahasiswa baru dinyatakan gugur/mengundurkan diri. Bagi mahasiswa aktif, status dapat menjadi tidak aktif dan memengaruhi KRS serta keaktifan semester.",
+        "Dokumen yang perlu disiapkan untuk her-registrasi: (1) Bukti pembayaran UKT, (2) KTM, (3) KRS semester sebelumnya, (4) Berkas pendukung lain sesuai ketentuan program studi.",
+        "Registrasi mahasiswa baru juga mencakup penentuan golongan UKT. Tim verifikator akan memvalidasi dokumen yang diunggah. Pemalsuan dokumen akan dikenakan sanksi administratif.",
+        "Informasi resmi mengenai registrasi (awal, ulang, dan her-registrasi) diumumkan melalui: (1) Website UNDANA https://undana.ac.id/, (2) BAK UNDANA https://bak.undana.ac.id/, (3) Media sosial resmi UNDANA, (4) Operator program studi.",
+        "Untuk mahasiswa yang belum registrasi karena kendala ekonomi, dapat mengajukan penundaan registrasi UKT sesuai SOP yang tersedia di BAK UNDANA.",
+        "Registrasi awal dan her-registrasi berbeda. Registrasi awal hanya sekali untuk mahasiswa baru, sedangkan her-registrasi dilakukan setiap semester oleh mahasiswa aktif.",
+        "Pastikan selalu memantau pengumuman resmi dari BAK UNDANA atau website UNDANA untuk jadwal, persyaratan, dan perubahan ketentuan registrasi."
+      ]
+    },
+    {
+      "tag": "Surat",
+      "kategori": "Administrasi",
+      "patterns": [
+        "surat bebas perpustakaan",
+        "pengajuan bebas pustaka",
+        "Jadwal pengurusan surat aktif kuliah atau surat izin penelitian di UNDANA biasanya berapa lama prosesnya?",
+        "syarat surat aktif",
+        "buat surat aktif",
+        "pengajuan surat aktif kuliah"
+      ],
+      "responses": [
+        "Pengajuan surat di UNDANA tidak terpusat. Setiap fakultas/program studi memiliki mekanisme yang berbeda. Ada yang langsung melalui operator prodi, ada yang melalui website fakultas, dan ada yang menggunakan sistem khusus seperti SISURAT di FST.",
+        "Di Fakultas Sains dan Teknik (FST), pengajuan surat dilakukan melalui SISURAT. Mahasiswa dapat mengakses SISURAT untuk mengajukan surat aktif kuliah, surat penelitian, dan surat lainnya sesuai ketentuan FST.",
+        "Di Fakultas Ilmu Sosial dan Ilmu Politik (FISIP), pengajuan surat dilakukan melalui website khusus yang disediakan FISIP. Silakan cek website resmi FISIP atau tanyakan ke operator prodi untuk informasi lebih lanjut.",
+        "Untuk fakultas/prodi lain, pengajuan surat dapat dilakukan langsung ke operator program studi atau melalui website fakultas masing-masing. Pastikan menanyakan prosedur yang berlaku di prodi Anda.",
+        "Surat aktif kuliah umumnya diajukan melalui operator prodi atau sistem surat fakultas. Lampirkan KTM, KHS terakhir, dan jelaskan keperluan surat (beasiswa, bank, instansi, dll).",
+        "Surat penelitian diajukan melalui operator prodi atau sistem surat fakultas. Di FST, pengajuan surat penelitian dapat dilakukan melalui SISURAT. Lampirkan proposal/skripsi yang sudah disetujui pembimbing.",
+        "Surat bebas pustaka dapat diajukan setelah mahasiswa memenuhi seluruh kewajiban perpustakaan. Biasanya melalui perpustakaan UNDANA atau operator prodi. Pastikan tidak ada pinjaman buku yang belum dikembalikan.",
+        "Surat Keterangan Lulus (SKL) diajukan setelah mahasiswa dinyatakan lulus yudisium. Pengajuan dapat melalui BAK UNDANA, fakultas, atau program studi sesuai ketentuan yang berlaku.",
+        "Lama proses pengurusan surat bervariasi, umumnya 1–3 hari kerja tergantung jenis surat, kelengkapan dokumen, dan kebijakan fakultas/prodi. Pastikan mengajukan jauh sebelum batas waktu yang dibutuhkan.",
+        "Pengurusan surat bisa diwakilkan? Tergantung kebijakan fakultas/prodi. Beberapa memerlukan surat kuasa atau hanya bisa dilakukan oleh mahasiswa yang bersangkutan. Tanyakan ke operator prodi.",
+        "Untuk mengecek status surat yang diajukan, silakan menghubungi operator prodi atau bagian akademik fakultas. Di FST dapat dicek melalui SISURAT, di FISIP melalui website FISIP.",
+        "Syarat umum pengajuan surat: (1) KTM, (2) KHS terakhir, (3) Bukti pembayaran UKT, (4) Surat permohonan (jika diperlukan), (5) Dokumen pendukung sesuai jenis surat. Persyaratan dapat berbeda di setiap prodi.",
+        "Surat aktif kuliah untuk beasiswa atau bank sama prosedurnya dengan surat aktif kuliah biasa. Pastikan keperluan surat ditulis dengan jelas agar isi surat sesuai kebutuhan.",
+        "Jika mengalami kendala dalam pengurusan surat, hubungi operator program studi, bagian akademik fakultas, atau BAK UNDANA. Untuk FST, cek SISURAT; untuk FISIP, cek website FISIP.",
+        "Kesimpulan: prosedur pengajuan surat mengikuti ketentuan masing-masing fakultas/prodi. Mahasiswa disarankan menanyakan langsung ke operator prodi atau melihat website resmi fakultas untuk informasi yang paling akurat."
+      ]
+    },
+    {
+      "tag": "Legalisir_Dokumen",
+      "kategori": "Administrasi",
+      "patterns": [
+        "legalisir lewat operator",
+        "legalisir kampus",
+        "legalisir online",
+        "legalisir transkrip"
+      ],
+      "responses": [
+        "Legalisir ijazah dan transkrip akademik di UNDANA dilakukan melalui beberapa tahap. Alur lengkapnya: (1) Lulusan membawa ijazah/transkrip asli ke SBAK, (2) SBAK memeriksa kelengkapan, (3) Lulusan membayar biaya legalisir di bank, (4) Staf akademik membubuhkan stempel legalisir, (5) Kasubbag Akademik memaraf, (6) Koordinator Prodi memaraf, (7) Dekan/WD1 mengesahkan, (8) Staf akademik membubuhkan stempel pengesahan, (9) Legalisir didistribusikan ke lulusan.",
+        "Syarat legalisir ijazah/transkrip: (1) Ijazah dan transkrip nilai asli, (2) Fotokopi ijazah dan transkrip sesuai kebutuhan, (3) Slip bukti pembayaran legalisir dari bank. Pastikan fotokopi sudah lengkap dan jelas.",
+        "Biaya legalisir dibayarkan melalui bank yang ditunjuk. Untuk Prodi Pendidikan Bahasa Inggris FKIP, pembayaran ke BRI No. Rekening 169601016881501 a.n. Zantty Octavia Padahana (Bendahara Prodi). Untuk prodi lain, silakan tanyakan ke operator prodi atau bagian akademik fakultas.",
+        "Prosedur legalisir di Prodi Pendidikan Bahasa Inggris FKIP: (1) Alumni membayar biaya legalisir via Bank BRI, (2) Alumni membawa dokumen asli dan bukti bayar, (3) Alumni memfotokopi ijazah/transkrip sejumlah permintaan, (4) Admin prodi menyerahkan ke fakultas untuk ditandatangani Wadek I, (5) Admin prodi menginformasikan via SMS, (6) Alumni mengambil legalisir di BAA atau dikirim ke alamat tujuan.",
+        "Lama proses legalisir bervariasi, namun berdasarkan SOP, setiap tahap memiliki mutu baku waktu: (1) Penerimaan berkas: 5–10 menit, (2) Pengecekan: 5 menit, (3) Pembayaran: 5 menit, (4) Stempel legalisir: 5 menit, (5) Paraf Kasubbag: 2 menit, (6) Paraf Koordinator Prodi: 2 menit, (7) Pengesahan Dekan/WD1: 15 menit, (8) Stempel pengesahan: 5 menit, (9) Distribusi: 2 menit.",
+        "Untuk konfirmasi pembayaran legalisir, silakan mengisi form online di https://undana.ac.id/administrasi/legalisir/ atau https://spi.undana.ac.id/administrasi/legalisir/. Pastikan seluruh data diisi dan di-submit.",
+        "Jika dokumen legalisir belum selesai dalam waktu yang ditentukan, silakan menghubungi admin prodi atau bagian akademik fakultas. Untuk Prodi Pendidikan Bahasa Inggris, bisa menghubungi Admin PSPBI.",
+        "Legalisir dapat diwakilkan? Berdasarkan alur, lulusan membawa sendiri dokumen ke SBAK. Jika diwakilkan, biasanya diperlukan surat kuasa. Silakan konfirmasi ke operator prodi atau BAK UNDANA.",
+        "Untuk legalisir ijazah dan transkrip, pastikan ijazah/transkrip asli dibawa. Jika ijazah/transkrip hilang, prosesnya akan berbeda dan memerlukan pengurusan khusus ke BAK UNDANA.",
+        "Informasi lebih lanjut mengenai legalisir dapat diperoleh melalui: (1) BAK UNDANA, (2) Operator program studi, (3) Website resmi fakultas/prodi, (4) Form online di https://undana.ac.id/administrasi/legalisir/."
+      ]
+    },
+    {
+      "tag": "MBKM",
+      "kategori": "Akademik",
+      "patterns": [],
+      "responses": [
+        "MBKM (Merdeka Belajar Kampus Merdeka) adalah program yang memungkinkan mahasiswa mengambil mata kuliah di luar program studi. Program MBKM meliputi pertukaran mahasiswa, magang, penelitian, kewirausahaan, dan pengabdian masyarakat.",
+        "MBKM memberikan kesempatan mahasiswa untuk belajar di luar program studi. Informasi lebih lanjut dapat diperoleh melalui program studi atau bagian akademik.",
+        "Program MBKM meliputi pertukaran mahasiswa, magang, penelitian, kewirausahaan, dan pengabdian masyarakat. Silakan hubungi program studi untuk informasi lebih lanjut."
+      ]
+    },
+    {
+      "tag": "Operator_Prodi",
+      "kategori": "Administrasi",
+      "patterns": [
+        "admin siakad",
+        "operator dimana",
+        "admin akademik",
+        "operator undana"
+      ],
+      "responses": [
+        "Informasi kontak operator program studi berbeda-beda di setiap prodi. Silakan menghubungi langsung operator prodi masing-masing, atau melihat website resmi fakultas/prodi untuk kontak yang tersedia.",
+        "Untuk urusan akademik tingkat prodi (KRS, KHS, surat, registrasi), hubungi operator program studi. Untuk urusan tingkat fakultas, hubungi admin fakultas. Untuk tingkat universitas, hubungi BAK UNDANA.",
+        "Kontak operator prodi biasanya tersedia di website resmi prodi, grup WhatsApp angkatan, atau papan pengumuman prodi. Silakan cek saluran informasi resmi tersebut untuk mendapatkan nomor yang dapat dihubungi.",
+        "Setiap fakultas memiliki admin/operator yang berbeda. Anda dapat langsung mendatangi kantor program studi atau fakultas pada jam kerja (Senin–Jumat, 07.30–16.30) untuk mendapatkan bantuan.",
+        "Operator prodi adalah pihak yang membantu mahasiswa dalam administrasi akademik seperti KRS, KHS, surat-menyurat, dan registrasi. Hubungi operator prodi Anda jika mengalami kendala akademik.",
+        "Untuk menghubungi operator prodi, Anda bisa datang langsung ke kantor prodi, menghubungi nomor yang tertera di website prodi, atau melalui admin grup WhatsApp angkatan/prodi.",
+        "Tidak ada satu nomor pusat untuk semua operator prodi. Setiap prodi memiliki kontak masing-masing. Silakan tanyakan ke ketua kelas, senior, atau staf prodi untuk informasi kontak yang akurat.",
+        "Jika Anda tidak mengetahui kontak operator prodi, silakan cek website resmi fakultas atau prodi, atau tanyakan ke bagian akademik fakultas. Setiap unit memiliki alur komunikasi yang berbeda.",
+        "Bantuan operator prodi meliputi pengisian KRS, perbaikan data akademik, pengurusan surat, dan informasi jadwal. Untuk masalah teknis SIADIK, hubungi admin SIADIK atau ICT UNDANA.",
+        "Untuk mempercepat proses, sampaikan pertanyaan Anda dengan jelas dan lampirkan data pendukung (NIM, prodi, semester) saat menghubungi operator prodi. Ikuti prosedur yang berlaku di prodi masing-masing."
+      ]
+    },
+    {
+      "tag": "PDDIKTI",
+      "kategori": "Administrasi",
+      "patterns": [],
+      "responses": [
+        "PDDIKTI (Pangkalan Data Pendidikan Tinggi) adalah sistem database pendidikan tinggi nasional. Data yang valid di PDDIKTI sangat penting untuk keperluan beasiswa, pendaftaran CPNS, melamar pekerjaan, dan melanjutkan studi. Cek data Anda secara berkala di pddikti.kemdikbud.go.id.",
+        "Jika terdapat data yang salah pada PDDIKTI, mahasiswa dapat mengajukan perbaikan melalui operator program studi atau bagian ICT UNDANA. Untuk alumni, perbaikan data pokok dapat diakses melalui link https://bit.ly/PERBAIKAN_DATA_MAHASISWA_PDDIKTI_UNDANA_v2 atau https://bak.undana.ac.id/home-3/perbaikan-data-alumni/.",
+        "Jenis pengajuan perbaikan data PDDIKTI meliputi: (1) Perubahan NIM, (2) Perbaikan data mahasiswa (nama, tempat/tanggal lahir), (3) Perubahan status lulus, (4) Perbaikan nomor ijazah. Pastikan data yang diajukan sesuai dengan dokumen resmi.",
+        "Untuk mahasiswa aktif, siapkan dokumen: scan KTP, scan akta lahir, dan scan KTM. Untuk alumni, siapkan: scan KTP, scan Kartu Keluarga, scan ijazah, dan scan transkrip. Dokumen ini diperlukan untuk proses verifikasi oleh operator PDDIKTI.",
+        "Prosedur perbaikan data PDDIKTI: (1) Buat laporan ke jurusan/universitas dengan surat pengantar dari pimpinan, (2) Siapkan dokumen pendukung, (3) Serahkan ke operator PDDIKTI di kampus, (4) Tunggu proses verifikasi. Proses ini membutuhkan waktu, jadi cek secara berkala.",
+        "Anda dapat memantau validitas data PDDIKTI secara mandiri melalui platform VAKUM UNDANA di https://vakum.undana.ac.id. Platform ini terhubung langsung dengan Neo Feeder PDDikti untuk memverifikasi status akademik, riwayat mata kuliah, dan SKS.",
+        "Data yang sering terjadi kesalahan input di PDDIKTI antara lain: nama, status aktif/tidak aktif, NIM, jumlah mata kuliah, tahun lulus, dan program studi. Periksa data Anda sedini mungkin untuk menghindari masalah di kemudian hari.",
+        "Jika setelah perbaikan data masih terdapat kesalahan, Anda dapat menghubungi call center 126 untuk menindaklanjuti. Pastikan Anda menyimpan bukti pengajuan dan selalu berkoordinasi dengan operator kampus.",
+        "Untuk alumni, perbaikan data pokok melalui BAK UNDANA dapat dilakukan dengan mengakses link yang telah disediakan. Pastikan seluruh dokumen pendukung telah diunggah dengan benar sesuai ketentuan yang berlaku.",
+        "Informasi lebih lanjut mengenai perbaikan data PDDIKTI dapat diperoleh melalui: (1) Operator program studi, (2) Bagian ICT UNDANA, (3) BAK UNDANA, (4) Platform VAKUM UNDANA di https://vakum.undana.ac.id."
+      ]
+    },
+    {
+      "tag": "PLP",
+      "kategori": "Akademik",
+      "patterns": [],
+      "responses": [
+        "PLP (Pengenalan Lapangan Persekolahan) adalah kegiatan praktik mengajar bagi mahasiswa FKIP Universitas Nusa Cendana. PLP bertujuan membentuk calon pendidik yang profesional, memahami karakteristik siswa, serta menghadapi tantangan nyata di dunia pendidikan.",
+        "Syarat mengikuti PLP umumnya meliputi: (1) Mahasiswa aktif FKIP UNDANA, (2) Telah menempuh semester tertentu (biasanya semester 6 atau 7), (3) Lulus mata kuliah kependidikan, (4) Memenuhi persyaratan administrasi yang ditetapkan program studi. Syarat detail dapat berbeda di setiap prodi.",
+        "Jadwal pendaftaran PLP diumumkan melalui program studi atau FKIP UNDANA. PLP biasanya dilaksanakan pada semester ganjil (Juli–Desember) atau semester genap, sesuai kalender akademik FKIP. Informasi resmi dapat dilihat di https://fkip.undana.ac.id/kalender-akademik/.",
+        "Prosedur PLP: (1) Mahasiswa mendaftar melalui program studi, (2) Program studi menempatkan mahasiswa di sekolah mitra, (3) Mahasiswa diantar oleh Dosen Pembimbing Lapangan (DPL), (4) Pelaksanaan PLP di sekolah, (5) Monitoring dan evaluasi oleh DPL dan guru pamong.",
+        "Tahapan PLP meliputi tiga siklus: (1) Orientasi dan Observasi (Siklus 1) – mengenal lingkungan sekolah dan karakteristik peserta didik, (2) Praktik Mengajar Terbimbing (Siklus 2) – mengajar di bawah bimbingan guru pamong dan DPL, (3) Praktik Mengajar Mandiri (Siklus 3) – mengajar secara mandiri.",
+        "Durasi PLP bervariasi, umumnya sekitar 5 bulan. Contoh: PLP Prodi Pendidikan Teknik Mesin di SMK Negeri 7 Kupang berlangsung Juli–Desember 2025. PLP PGPAUD UNDANA juga berlangsung Juli–Desember 2025 di 29 sekolah mitra di Kota Kupang.",
+        "Selama PLP, mahasiswa dibimbing oleh Dosen Pembimbing Lapangan (DPL) dari prodi dan Guru Pamong dari sekolah mitra. DPL bertugas memantau, membimbing, dan menilai kegiatan PLP mahasiswa.",
+        "Penempatan PLP dilakukan di sekolah-sekolah mitra FKIP UNDANA, terutama di Kota Kupang dan sekitarnya. Contoh: PGPAUD UNDANA menempatkan mahasiswa di 29 sekolah mitra, sedangkan PTM UNDANA menempatkan mahasiswa di SMK Negeri 7 Kupang.",
+        "PLP dapat diintegrasikan dengan KKN Lingkungan, seperti program Integrasi Unik PLP dan KKN Lingkungan mahasiswa FKIP UNDANA, untuk menciptakan calon guru yang berwawasan sosial dan peduli lingkungan.",
+        "Informasi lebih lanjut mengenai PLP dapat diperoleh melalui: (1) Program studi masing-masing, (2) Bagian akademik FKIP UNDANA, (3) LP3M UNDANA (Pusat Pembelajaran Luar Prodi) di https://lp3m.undana.ac.id/school-info/pusat-pembelajaran-di-luar-prodi/, (4) Kalender akademik FKIP."
+      ]
+    },
+    {
+      "tag": "Perpustakaan",
+      "kategori": "Administrasi",
+      "patterns": [
+        "denda telat kembalikan buku",
+        "peminjaman buku perpustakaan",
+        "cara pinjam buku di perpustakaan",
+        "koleksi buku perpustakaan",
+        "bimbingan pemustaka",
+        "jam buka perpustakaan"
+      ],
+      "responses": [
+        "UPT Perpustakaan Universitas Nusa Cendana (UNDANA) merupakan unit pelaksana teknis yang menyediakan layanan perpustakaan bagi mahasiswa, dosen, dan civitas akademika. Informasi lengkap dapat diakses melalui website resmi https://perpustakaan.undana.ac.id.",
+        "Perpustakaan UNDANA dapat diakses secara online melalui https://perpustakaan.undana.ac.id. Website ini menyediakan informasi koleksi, layanan, pengumuman, dan akses ke Undana Digital Library.",
+        "Pendaftaran anggota perpustakaan UNDANA dapat dilakukan dengan mengunjungi langsung UPT Perpustakaan dan membawa Kartu Tanda Mahasiswa (KTM) yang masih berlaku. Pastikan data mahasiswa sudah terdaftar di sistem akademik.",
+        "Untuk menjadi anggota perpustakaan UNDANA, mahasiswa cukup membawa KTM ke bagian layanan UPT Perpustakaan. Kartu anggota akan diberikan setelah proses pendaftaran selesai dan dapat digunakan untuk meminjam buku.",
+        "UPT Perpustakaan UNDANA memiliki koleksi sebanyak 35.605 judul buku, 71.210 exemplar buku, serta 579 judul digital library yang dapat diakses oleh mahasiswa. Koleksi ini terus diperbarui sesuai kebutuhan akademik.",
+        "Selain koleksi buku fisik, Perpustakaan UNDANA juga menyediakan Undana Digital Library yang dapat diakses melalui website https://perpustakaan.undana.ac.id. Mahasiswa dapat memanfaatkan koleksi digital untuk keperluan belajar dan penelitian.",
+        "Untuk meminjam buku di Perpustakaan UNDANA, mahasiswa harus terdaftar sebagai anggota dan membawa KTM. Proses peminjaman dilakukan melalui petugas layanan perpustakaan sesuai ketentuan yang berlaku.",
+        "Peminjaman buku di Perpustakaan UNDANA memiliki batas waktu tertentu. Keterlambatan pengembalian akan dikenakan denda sesuai ketentuan yang ditetapkan oleh UPT Perpustakaan. Pastikan buku dikembalikan sesuai jadwal.",
+        "Perpustakaan UNDANA menyelenggarakan program Bimbingan Pemustaka bagi mahasiswa baru. Kegiatan ini bertujuan membekali mahasiswa dengan keterampilan literasi informasi dan cara mengakses jurnal akademik.",
+        "Bimbingan Pemustaka merupakan kegiatan rutin UPT Perpustakaan UNDANA untuk membantu mahasiswa baru memahami layanan perpustakaan, termasuk cara mengakses jurnal akademik dan memanfaatkan Undana Digital Library.",
+        "Untuk mengakses jurnal akademik, mahasiswa dapat memanfaatkan layanan Perpustakaan UNDANA melalui website https://perpustakaan.undana.ac.id. Perpustakaan juga menyediakan bimbingan langsung bagi mahasiswa yang membutuhkan pendampingan.",
+        "Perpustakaan UNDANA menyediakan berbagai fasilitas seperti ruang baca, layanan peminjaman buku, akses jurnal online, dan Undana Digital Library. Mahasiswa dapat memanfaatkan fasilitas ini untuk mendukung kegiatan akademik.",
+        "Untuk informasi lebih lanjut mengenai jam operasional, layanan, atau koleksi Perpustakaan UNDANA, silakan mengunjungi website resmi https://perpustakaan.undana.ac.id atau menghubungi petugas UPT Perpustakaan secara langsung.",
+        "Undana Digital Library merupakan layanan perpustakaan digital UNDANA yang dapat diakses melalui https://perpustakaan.undana.ac.id. Layanan ini menyediakan koleksi buku digital dan jurnal akademik yang dapat diakses oleh mahasiswa.",
+        "Untuk mengakses repository dan jurnal referensi, mahasiswa dapat menggunakan layanan Perpustakaan UNDANA. Repository UNDANA dan database jurnal yang dilanggan universitas dapat diakses melalui website perpustakaan.",
+        "Jika mengalami kendala dalam mengakses layanan perpustakaan online, silakan menghubungi petugas UPT Perpustakaan UNDANA atau datang langsung ke perpustakaan pusat untuk mendapatkan bantuan.",
+        "UPT Perpustakaan UNDANA aktif menyelenggarakan berbagai kegiatan literasi informasi, termasuk Bimbingan Pemustaka untuk mahasiswa baru. Informasi jadwal kegiatan diumumkan melalui website resmi perpustakaan.",
+        "Perpustakaan UNDANA berkomitmen mendukung kegiatan akademik mahasiswa melalui penyediaan koleksi buku, akses jurnal, dan layanan digital library. Kunjungan perpustakaan tercatat tinggi setiap bulannya sebagai bukti pemanfaatan oleh mahasiswa.",
+        "Untuk mengembalikan buku yang dipinjam, mahasiswa dapat menyerahkan langsung ke petugas layanan Perpustakaan UNDANA sesuai jadwal yang ditetapkan. Pastikan buku dalam kondisi baik saat dikembalikan.",
+        "Informasi lengkap mengenai Perpustakaan UNDANA, termasuk koleksi, layanan, jadwal kegiatan, dan pengumuman terbaru, dapat diakses melalui website resmi https://perpustakaan.undana.ac.id."
+      ]
+    },
+    {
+      "tag": "Repository_Jurnal",
+      "kategori": "Akademik",
+      "patterns": [
+        "cara membuat jurnal untuk di upload di kampus",
+        "cara download skripsi di repository",
+        "cara akses garuda",
+        "website repository undana",
+        "repository skripsi",
+        "cara mengakses jurnal sosial politik"
+      ],
+      "responses": [
+        "Repository UNDANA merupakan sistem penyimpanan karya ilmiah mahasiswa dan dosen yang dapat diakses melalui https://repository.undana.ac.id. Repository ini memuat skripsi, tesis, disertasi, dan publikasi ilmiah lainnya.",
+        "Untuk mengakses repository UNDANA, silakan kunjungi https://repository.undana.ac.id melalui browser. Sebagian koleksi dapat diakses secara terbuka, namun beberapa dokumen mungkin memerlukan login akun mahasiswa.",
+        "Repository UNDANA dapat diakses melalui website resmi https://repository.undana.ac.id atau melalui tautan yang tersedia di website perpustakaan UNDANA di https://perpustakaan.undana.ac.id.",
+        "Untuk mencari skripsi, tesis, atau disertasi di repository UNDANA, mahasiswa dapat menggunakan fitur pencarian berdasarkan kata kunci, penulis, program studi, atau tahun terbit pada website https://repository.undana.ac.id.",
+        "Repository UNDANA memiliki koleksi per fakultas, termasuk FST, FKIP, FEB, FISIP, FPKP, FAPERTA, FKM, FH, dan FKKH. Mahasiswa dapat memfilter pencarian sesuai fakultas atau program studi yang diinginkan.",
+        "Untuk mengunggah skripsi atau tugas akhir ke repository UNDANA, mahasiswa biasanya harus menyelesaikan proses revisi, mendapatkan persetujuan dosen pembimbing, dan mengikuti prosedur yang ditetapkan oleh perpustakaan atau program studi.",
+        "Proses upload skripsi ke repository UNDANA umumnya dilakukan setelah mahasiswa dinyatakan lulus ujian skripsi dan menyelesaikan revisi. Berkas yang diunggah meliputi file skripsi lengkap dan lembar persetujuan pembimbing.",
+        "Syarat upload skripsi ke repository UNDANA meliputi: (1) Skripsi telah disetujui dan disahkan pembimbing, (2) Skripsi telah melalui revisi akhir, (3) Mengisi formulir persetujuan publikasi, (4) Melampirkan berkas pendukung sesuai ketentuan program studi.",
+        "Untuk membuat jurnal yang dapat diunggah di kampus, mahasiswa dapat mengikuti panduan dari program studi atau dosen pembimbing. Umumnya jurnal ilmiah mengikuti struktur: judul, abstrak, pendahuluan, metode, hasil, pembahasan, kesimpulan, dan daftar pustaka.",
+        "Untuk publikasi jurnal, mahasiswa dapat memilih jurnal nasional terakreditasi SINTA atau jurnal internasional terindeks Scopus. Pastikan jurnal yang dituju sesuai dengan bidang ilmu dan mengikuti template penulisan yang disyaratkan.",
+        "Untuk mencari referensi jurnal, mahasiswa dapat mengakses: (1) Perpustakaan UNDANA di https://perpustakaan.undana.ac.id, (2) Repository UNDANA, (3) Google Scholar, (4) Garuda (Garba Rujukan Digital), (5) SINTA, (6) DOAJ, dan (7) database jurnal yang dilanggan universitas.",
+        "Google Scholar (scholar.google.com) merupakan mesin pencari akademik gratis yang dapat digunakan mahasiswa untuk mencari referensi jurnal, skripsi, tesis, dan publikasi ilmiah lainnya. Cukup masukkan kata kunci sesuai topik penelitian.",
+        "Garuda (Garba Rujukan Digital) di garuda.kemdikbud.go.id merupakan portal yang menyediakan akses ke jurnal dan publikasi ilmiah Indonesia. Mahasiswa dapat menggunakannya untuk mencari referensi jurnal nasional.",
+        "SINTA (Science and Technology Index) di sinta.kemdikbud.go.id merupakan portal yang mengindeks jurnal dan penulis ilmiah Indonesia. Mahasiswa dapat menggunakannya untuk mengecek reputasi jurnal atau mencari jurnal terakreditasi.",
+        "DOAJ (Directory of Open Access Journals) di doaj.org menyediakan akses ke jurnal ilmiah open access dari berbagai negara. Cocok untuk mahasiswa yang mencari referensi jurnal internasional gratis.",
+        "Untuk jurnal internasional terindeks Scopus, mahasiswa dapat mengakses melalui database yang dilanggan universitas atau melalui portal seperti ScienceDirect, Springer, dan Wiley (jika tersedia akses institusi).",
+        "Untuk mengakses jurnal pendidikan, mahasiswa dapat menggunakan Google Scholar, Garuda, atau database jurnal yang dilanggan universitas. Perpustakaan UNDANA juga menyediakan akses jurnal akademik bagi mahasiswa.",
+        "Untuk mengakses jurnal teknik, mahasiswa dapat menggunakan Google Scholar, IEEE Xplore, ScienceDirect, atau database jurnal yang dilanggan universitas. Sesuaikan kata kunci dengan topik penelitian.",
+        "Untuk mengakses jurnal sosial politik, mahasiswa dapat menggunakan Google Scholar, Garuda, atau database jurnal yang dilanggan universitas. Perpustakaan UNDANA menyediakan akses jurnal akademik yang relevan.",
+        "Untuk mengakses jurnal peternakan, mahasiswa dapat menggunakan Google Scholar, Garuda, atau database jurnal yang dilanggan universitas. Sesuaikan pencarian dengan kata kunci bidang peternakan dan kesehatan hewan.",
+        "Jika mengalami kendala dalam mengakses repository atau jurnal, silakan menghubungi petugas UPT Perpustakaan UNDANA secara langsung atau melalui website https://perpustakaan.undana.ac.id untuk mendapatkan bantuan.",
+        "Perpustakaan UNDANA menyelenggarakan Bimbingan Pemustaka bagi mahasiswa baru untuk membantu mereka mengakses jurnal akademik dan memanfaatkan layanan perpustakaan digital. Informasi jadwal dapat dilihat di website perpustakaan.",
+        "Informasi lengkap mengenai repository, jurnal referensi, dan layanan perpustakaan dapat diperoleh melalui: (1) UPT Perpustakaan UNDANA di https://perpustakaan.undana.ac.id, (2) Repository UNDANA di https://repository.undana.ac.id, (3) Program studi masing-masing, (4) Dosen Pembimbing Akademik."
+      ]
+    },
+    {
+      "tag": "Semester_Pendek",
+      "kategori": "Akademik",
+      "patterns": [
+        "program semester pendek",
+        "kuliah semester pendek",
+        "sp kuliah",
+        "semester pendek kapan"
+      ],
+      "responses": [
+        "Semester Pendek merupakan program perkuliahan yang diselenggarakan setelah semester genap sesuai kebijakan Universitas Nusa Cendana. Informasi mengenai jadwal, mata kuliah yang dibuka, dan persyaratan mengikuti Semester Pendek diumumkan melalui fakultas atau program studi.",
+        "Mahasiswa yang ingin mengikuti Semester Pendek dapat melihat pengumuman resmi dari fakultas atau program studi mengenai jadwal pendaftaran, mata kuliah yang ditawarkan, dan ketentuan yang berlaku.",
+        "Pelaksanaan Semester Pendek mengikuti kebijakan Universitas Nusa Cendana. Silakan mengikuti informasi resmi dari fakultas atau program studi mengenai jadwal pelaksanaan dan mekanisme pendaftarannya.",
+        "Informasi Semester Pendek, termasuk jadwal, biaya, dan mata kuliah yang dapat diambil, akan diumumkan oleh fakultas atau program studi sebelum pelaksanaan Semester Pendek.",
+        "Apabila membutuhkan informasi lebih lanjut mengenai Semester Pendek, mahasiswa dapat menghubungi program studi atau mengikuti pengumuman resmi yang diterbitkan oleh fakultas."
+      ]
+    },
+    {
+      "tag": "Seminar",
+      "kategori": "Akademik",
+      "patterns": [
+        "guest lecture",
+        "kapan seminar",
+        "kuliah umum",
+        "seminar internasional",
+        "cara dapat sertifikat seminar",
+        "seminar fakultas"
+      ],
+      "responses": [
+        "Seminar di lingkungan UNDANA merupakan kegiatan akademik yang diselenggarakan oleh universitas, fakultas, atau program studi. Informasi mengenai seminar biasanya diumumkan melalui program studi masing-masing, media sosial resmi UNDANA, dan papan pengumuman fakultas.",
+        "Untuk mengetahui jadwal seminar di UNDANA, mahasiswa dapat memantau: (1) Pengumuman resmi dari program studi, (2) Akun Instagram resmi UNDANA dan fakultas, (3) Website resmi fakultas/prodi, (4) Grup WhatsApp angkatan, (5) Papan pengumuman kampus.",
+        "Informasi seminar terbaru dapat diperoleh melalui akun Instagram resmi UNDANA, media sosial fakultas, dan pengumuman dari program studi. Mahasiswa disarankan mengikuti kanal informasi resmi agar tidak ketinggalan jadwal seminar.",
+        "Cara mengikuti seminar di UNDANA: (1) Memantau pengumuman dari prodi atau fakultas, (2) Mendaftar melalui link yang disediakan, (3) Melengkapi persyaratan (jika ada), (4) Mengikuti seminar sesuai jadwal, (5) Mengisi daftar hadir untuk mendapatkan sertifikat.",
+        "Pendaftaran seminar kampus umumnya dilakukan secara online melalui link yang disediakan penyelenggara. Pastikan membaca persyaratan dan batas waktu pendaftaran yang diumumkan.",
+        "Sertifikat seminar biasanya diberikan kepada peserta yang hadir dan mengisi daftar hadir. Untuk seminar tertentu, sertifikat dapat diunduh melalui link yang dibagikan setelah kegiatan selesai.",
+        "Seminar nasional dan internasional di UNDANA biasanya diselenggarakan oleh fakultas atau program studi tertentu. Informasi jadwal, tema, pembicara, dan biaya dapat dilihat pada pengumuman resmi penyelenggara.",
+        "Untuk seminar online (webinar), mahasiswa dapat mengikuti melalui platform seperti Zoom, Google Meet, atau YouTube Live. Link webinar biasanya dibagikan melalui pengumuman resmi atau media sosial penyelenggara.",
+        "Workshop dan pelatihan mahasiswa di UNDANA diumumkan melalui program studi, fakultas, atau organisasi kemahasiswaan. Kegiatan ini biasanya bertujuan meningkatkan keterampilan praktis mahasiswa.",
+        "Kuliah umum dan guest lecture di UNDANA menghadirkan pembicara dari berbagai bidang, baik akademisi maupun praktisi. Jadwal kegiatan diumumkan melalui pengumuman resmi universitas atau fakultas.",
+        "Untuk mendapatkan informasi seminar secara rutin, mahasiswa disarankan: (1) Mengikuti akun Instagram resmi UNDANA, (2) Bergabung dengan grup WhatsApp angkatan/prodi, (3) Memantau website fakultas, (4) Membaca papan pengumuman kampus.",
+        "Jika ingin menyelenggarakan seminar sebagai bagian dari kegiatan organisasi, mahasiswa dapat mengajukan proposal ke fakultas atau bagian kemahasiswaan sesuai prosedur yang berlaku.",
+        "Seminar proposal dan seminar hasil skripsi merupakan kegiatan akademik wajib bagi mahasiswa tingkat akhir. Informasi jadwal dan persyaratan dapat diperoleh melalui program studi masing-masing.",
+        "Untuk seminar yang diselenggarakan oleh pihak eksternal, mahasiswa dapat mencari informasi melalui media sosial, website penyelenggara, atau rekomendasi dari dosen dan senior.",
+        "Apabila ingin bertanya mengenai seminar tertentu, mahasiswa dapat menghubungi program studi, bagian kemahasiswaan fakultas, atau penyelenggara kegiatan yang tertera pada pengumuman.",
+        "Seminar di UNDANA dapat diselenggarakan secara offline, online, atau hybrid. Pastikan membaca ketentuan kegiatan untuk mengetahui format pelaksanaan dan persyaratan peserta.",
+        "Informasi lengkap mengenai seminar, workshop, dan kegiatan akademik lainnya dapat diperoleh melalui: (1) Pengumuman resmi program studi, (2) Media sosial resmi UNDANA, (3) Website fakultas, (4) Bagian kemahasiswaan fakultas.",
+        "Untuk seminar berbayar, peserta biasanya perlu melakukan pembayaran sesuai ketentuan penyelenggara. Simpan bukti pembayaran sebagai syarat mengikuti kegiatan.",
+        "Jika mengalami kendala dalam pendaftaran seminar, silakan menghubungi panitia penyelenggara atau bagian kemahasiswaan fakultas untuk mendapatkan bantuan.",
+        "Mahasiswa disarankan aktif mengikuti seminar, workshop, dan kuliah umum untuk menambah wawasan, memperluas jaringan, serta melengkapi portofolio akademik dan non-akademik selama masa studi."
+      ]
+    },
+    {
+      "tag": "Transkrip_Nilai",
+      "kategori": "Akademik",
+      "patterns": [
+        "rekap nilai",
+        "cetak transkrip",
+        "Apa yang harus dilakukan jika bukti regis hilang?"
+      ],
+      "responses": [
+        "Transkrip nilai sementara dapat dilihat melalui SIADIKNONA. Untuk transkrip nilai resmi dan ijazah, mahasiswa dapat mengajukan permohonan ke BAK atau program studi setelah dinyatakan lulus.",
+        "Jika bukti registrasi hilang, segera hubungi bagian akademik untuk pengurusan lebih lanjut.",
+        "Transkrip nilai dan ijazah diurus melalui BAK atau program studi. Pastikan seluruh persyaratan telah dipenuhi.",
+        "Transkrip nilai sementara dapat dilihat melalui SIADIKNONA di https://siadiknona.undana.ac.id/gate/login. Login menggunakan akun mahasiswa kemudian pilih menu Transkrip Nilai.",
+        "Untuk melihat transkrip nilai sementara, silakan login ke SIADIKNONA lalu buka menu Transkrip Nilai. Sistem akan menampilkan seluruh mata kuliah yang telah ditempuh beserta nilai dan IPK sementara.",
+        "Mahasiswa dapat mengakses transkrip nilai sementara melalui SIADIKNONA. Setelah berhasil login, pilih menu Transkrip Nilai untuk melihat rekap nilai selama masa studi.",
+        "Informasi transkrip nilai tersedia pada SIADIKNONA Universitas Nusa Cendana. Login menggunakan akun mahasiswa, kemudian pilih menu Transkrip Nilai.",
+        "Jika ingin melihat transkrip nilai sementara, login ke SIADIKNONA melalui https://siadiknona.undana.ac.id/gate/login dan buka menu Transkrip Nilai."
+      ]
+    },
+    {
+      "tag": "Beasiswa_Bank_Indonesia",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "bagaimana cara daftar beasiswa bank indonesia",
+        "genbi mahasiswa",
+        "genbi undana",
+        "proses pendaftaran bank indonesia",
+        "beasiswa bi",
+        "beasiswa bank indonesia kapan"
+      ],
+      "responses": [
+        "Beasiswa Bank Indonesia (GenBI) memiliki persyaratan: IPK minimal 3,00, tidak sedang menerima beasiswa lain, dan melampirkan SKTM. Informasi lengkap dapat dilihat pada pengumuman resmi universitas.",
+        "Pendaftaran Program Pendidikan Kebanksentralan Bank Indonesia dilakukan dengan mengikuti pengumuman resmi UNDANA. Mahasiswa menyiapkan dokumen persyaratan, mengisi formulir, dan mengikuti seleksi.",
+        "Jadwal Program Pendidikan Kebanksentralan Bank Indonesia diumumkan setiap periode melalui pengumuman resmi Universitas Nusa Cendana. Mahasiswa disarankan memantau informasi resmi.",
+        "GenBI (Generasi Baru Indonesia) adalah komunitas penerima Beasiswa Bank Indonesia yang aktif dalam kegiatan sosial, edukasi, dan kebanksentralan.",
+        "Pendaftaran Beasiswa Bank Indonesia dilakukan melalui pengumuman resmi UNDANA. Pastikan memantau website dan media sosial resmi universitas untuk jadwal terbaru.",
+        "Seleksi Beasiswa Bank Indonesia meliputi seleksi administrasi, tes tertulis, dan wawancara. Peserta yang lolos akan menjadi anggota GenBI UNDANA.",
+        "Beasiswa Bank Indonesia memberikan manfaat berupa bantuan biaya pendidikan, pelatihan kepemimpinan, dan keanggotaan dalam komunitas GenBI.",
+        "Penerima Beasiswa Bank Indonesia wajib aktif dalam kegiatan GenBI, seperti seminar, pelatihan, dan program pengabdian masyarakat.",
+        "Informasi lebih lanjut mengenai Beasiswa Bank Indonesia dapat diperoleh melalui bagian kemahasiswaan UNDANA atau website resmi Bank Indonesia.",
+        "Jika mengalami kendala dalam pendaftaran Beasiswa Bank Indonesia, silakan menghubungi bagian kemahasiswaan atau pengurus GenBI UNDANA."
+      ]
+    },
+    {
+      "tag": "Beasiswa_Kendala",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "seleksi beasiswa gagal",
+        "nomor beasiswa",
+        "tidak diterima beasiswa",
+        "kenapa tidak lolos",
+        "gagal kip",
+        "kontak admin beasiswa"
+      ],
+      "responses": [
+        "Apabila belum lolos seleksi beasiswa, silakan memeriksa kembali persyaratan dan pengumuman resmi. Setiap program memiliki kriteria seleksi yang berbeda.",
+        "Penyaluran beasiswa di UNDANA dilakukan secara transparan dan tepat sasaran sesuai ketentuan penyelenggara. Jika merasa memenuhi syarat tetapi tidak lolos, dapat mengajukan klarifikasi ke bagian kemahasiswaan.",
+        "Untuk informasi lebih lanjut mengenai beasiswa, silakan menghubungi bagian kemahasiswaan atau unit yang menangani program beasiswa di universitas.",
+        "Beasiswa dapat ditolak karena tidak memenuhi syarat administrasi, IPK di bawah ketentuan, atau sudah menerima beasiswa lain.",
+        "Jika merasa memenuhi syarat tetapi tidak lolos, mahasiswa dapat mengajukan klarifikasi ke bagian kemahasiswaan dengan membawa bukti pendukung.",
+        "Pastikan seluruh dokumen pendaftaran beasiswa lengkap dan valid. Dokumen tidak lengkap menjadi penyebab umum penolakan beasiswa.",
+        "Mahasiswa disarankan membaca pengumuman resmi beasiswa secara teliti untuk memahami kriteria seleksi dan persyaratan yang diminta.",
+        "Untuk informasi mengenai kontak pengelola beasiswa, silakan menghubungi bagian kemahasiswaan fakultas atau universitas.",
+        "Pengaduan terkait beasiswa dapat disampaikan ke bagian kemahasiswaan UNDANA atau melalui kanal pengaduan resmi universitas.",
+        "Jika belum menerima informasi pembukaan beasiswa, mahasiswa dapat memantau website resmi UNDANA dan media sosial resmi universitas secara berkala."
+      ]
+    },
+    {
+      "tag": "Beasiswa_Umum",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "jenis beasiswa",
+        "daftar beasiswa",
+        "Beasiswa yang tersedia?",
+        "Beasiswa apa saja yang ada di undana",
+        "beasiswa apa saja",
+        "beasiswa untuk mahasiswa"
+      ],
+      "responses": [
+        "Beasiswa yang tersedia di UNDANA antara lain: (1) KIP-Kuliah, (2) Beasiswa Prestasi Akademik, (3) Beasiswa Bank Indonesia (GenBI), (4) Beasiswa Djarum Plus, (5) Beasiswa Karya Salemba Empat (KSE), (6) Beasiswa Pemerintah Daerah, (7) Beasiswa Yayasan.",
+        "Jenis beasiswa di UNDANA meliputi beasiswa internal dan eksternal. Informasi lebih lanjut dapat diperoleh melalui pengumuman resmi UNDANA atau bagian kemahasiswaan.",
+        "Informasi beasiswa dapat diperoleh melalui: (1) Website resmi UNDANA di https://undana.ac.id/akademik/beasiswa/, (2) Media sosial resmi UNDANA, (3) Bagian kemahasiswaan fakultas, (4) Pengumuman dari program studi.",
+        "Beasiswa di UNDANA terdiri dari beasiswa internal (dari universitas) dan eksternal (dari pemerintah, perusahaan, atau yayasan).",
+        "Beasiswa internal UNDANA meliputi Beasiswa Prestasi Akademik dan bantuan UKT. Beasiswa eksternal meliputi KIP-Kuliah, GenBI, Djarum Plus, dan KSE.",
+        "Untuk mendapatkan beasiswa, mahasiswa harus memenuhi syarat akademik (IPK minimal) dan administrasi (dokumen lengkap).",
+        "Mahasiswa disarankan aktif memantau pengumuman beasiswa melalui website resmi UNDANA, media sosial, dan grup WhatsApp angkatan.",
+        "Beberapa beasiswa mensyaratkan mahasiswa aktif berorganisasi atau memiliki prestasi non-akademik. Sertifikat kegiatan dapat menjadi nilai tambah.",
+        "Beasiswa umumnya tidak dapat diterima bersamaan. Mahasiswa hanya boleh menerima satu beasiswa pada satu waktu.",
+        "Informasi lebih lanjut mengenai jenis dan jadwal beasiswa dapat diperoleh melalui bagian kemahasiswaan UNDANA atau website resmi universitas."
+      ]
+    },
+    {
+      "tag": "Beasiswa_KIPK",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "beasiswa kip",
+        "bantuan kip",
+        "cara mendaftar bidikmisi",
+        "syarat kip kuliah",
+        "cara daftar bidikmisi",
+        "pendaftaran bidikmisi"
+      ],
+      "responses": [
+        "KIP Kuliah adalah program bantuan biaya pendidikan dari pemerintah. Syarat: (1) Mahasiswa dari keluarga ekonomi kurang mampu (Desil 1-4 DTKS), (2) Diterima di perguruan tinggi negeri/swasta, (3) Tidak sedang menerima beasiswa lain.",
+        "Pendaftaran KIP Kuliah dilakukan melalui portal KIP Kuliah (kip-kuliah.kemdikbud.go.id) dengan NISN, NPSN, NIK, dan email aktif. Pastikan seluruh dokumen telah disiapkan.",
+        "Jadwal pendaftaran akun KIP Kuliah Tahun 2026 dibuka mulai 3 Februari 2026 hingga 31 Oktober 2026. KIP Kuliah memberikan pembebasan UKT dan bantuan biaya hidup.",
+        "KIP Kuliah adalah program bantuan biaya pendidikan dari pemerintah bagi mahasiswa dari keluarga kurang mampu.",
+        "Penerima KIP Kuliah mendapatkan pembebasan UKT dan bantuan biaya hidup sesuai ketentuan pemerintah.",
+        "Pendaftaran KIP Kuliah dilakukan melalui portal resmi kip-kuliah.kemdikbud.go.id dengan melengkapi NISN, NPSN, NIK, dan email aktif.",
+        "Syarat utama KIP Kuliah: terdaftar di DTKS (Desil 1-4), diterima di perguruan tinggi, dan tidak sedang menerima beasiswa lain.",
+        "Untuk mahasiswa yang sudah aktif dan ingin mendaftar KIP Kuliah, dapat mengajukan melalui pembukaan KIP Kuliah semester berjalan sesuai pengumuman resmi.",
+        "Jika pendaftaran KIP Kuliah mengalami kendala, mahasiswa dapat menghubungi bagian kemahasiswaan UNDANA atau call center KIP Kuliah.",
+        "Jadwal pendaftaran KIP Kuliah diumumkan setiap tahun melalui website resmi KIP Kuliah dan pengumuman UNDANA. Pastikan memantau informasi terbaru."
+      ]
+    },
+    {
+      "tag": "Beasiswa_Syarat",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "Persyaratan beasiswa di undana?",
+        "Persyaratan beasiswa",
+        "Persyaratan apa saja yg kira² kita harus diapakan?",
+        "persyaratan pendaftaran",
+        "Syarat beasiswa kira - kira apa saja?",
+        "dokumen beasiswa"
+      ],
+      "responses": [
+        "Syarat umum beasiswa di UNDANA meliputi: (1) Mahasiswa aktif UNDANA, (2) IPK minimal sesuai ketentuan beasiswa, (3) Tidak sedang menerima beasiswa lain, (4) Melengkapi dokumen seperti KTP, KK, KHS, dan surat keterangan penghasilan orang tua.",
+        "Persyaratan beasiswa dapat berbeda tergantung jenis beasiswa. Pastikan membaca pengumuman resmi untuk mengetahui syarat lengkapnya.",
+        "Dokumen umum untuk beasiswa: KTP, KK, KHS, surat keterangan penghasilan orang tua, dan surat keterangan tidak menerima beasiswa lain.",
+        "Syarat umum beasiswa di UNDANA: mahasiswa aktif, IPK minimal 3.00 (tergantung beasiswa), tidak sedang menerima beasiswa lain, dan melengkapi dokumen pendukung.",
+        "Dokumen umum pendaftaran beasiswa: KTP, Kartu Keluarga, KHS terakhir, surat keterangan penghasilan orang tua, dan surat keterangan aktif kuliah.",
+        "Beberapa beasiswa mensyaratkan mahasiswa aktif berorganisasi atau memiliki prestasi tertentu. Pastikan membaca pengumuman resmi beasiswa.",
+        "Surat rekomendasi dari dosen atau pimpinan fakultas sering menjadi syarat pendaftaran beasiswa tertentu.",
+        "Sertifikat kegiatan, piagam penghargaan, atau portofolio dapat menjadi nilai tambah dalam seleksi beasiswa.",
+        "Pastikan seluruh dokumen yang diunggah jelas, terbaca, dan sesuai format yang diminta. Dokumen tidak valid menjadi penyebab umum penolakan.",
+        "Jika bingung mengenai syarat beasiswa tertentu, silakan menghubungi bagian kemahasiswaan fakultas atau pengelola beasiswa."
+      ]
+    },
+    {
+      "tag": "Beasiswa_Djarum",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "bagaimana daftar djarum",
+        "tes beasiswa djarum kapan",
+        "cara ikut djarum plus",
+        "periode pendaftaran djarum",
+        "jadwal wawancara djarum",
+        "mekanisme pendaftaran djarum"
+      ],
+      "responses": [
+        "Beasiswa Djarum Plus ditujukan bagi mahasiswa S1 semester IV dengan IPK minimal 3,00, aktif berorganisasi, dan tidak sedang menerima beasiswa lain.",
+        "Pendaftaran Beasiswa Djarum Plus dilakukan secara daring melalui laman resmi Djarum Beasiswa Plus. Mahasiswa melengkapi data diri, mengunggah dokumen, dan mengikuti seleksi.",
+        "Jadwal Beasiswa Djarum Plus Tahun 2026: pendaftaran 30 Maret–3 Juni 2026, tes online 29 Juni–11 Juli 2026, tes offline dan wawancara Juli–September 2026, pengumuman 1 Oktober 2026.",
+        "Beasiswa Djarum Plus adalah beasiswa dari Djarum Foundation untuk mahasiswa S1 semester IV dengan IPK minimal 3.00.",
+        "Penerima Beasiswa Djarum Plus (Beswan Djarum) mendapatkan bantuan biaya pendidikan dan pelatihan soft skill selama 1 tahun.",
+        "Syarat Beasiswa Djarum Plus: mahasiswa aktif semester IV, IPK minimal 3.00, aktif berorganisasi, dan tidak sedang menerima beasiswa lain.",
+        "Pendaftaran Beasiswa Djarum Plus dilakukan secara online melalui website resmi Djarum Beasiswa Plus dengan melengkapi data diri dan dokumen.",
+        "Seleksi Beasiswa Djarum Plus meliputi seleksi administrasi, tes tertulis online, tes offline, dan wawancara.",
+        "Pengumuman penerima Beasiswa Djarum Plus diumumkan sesuai jadwal yang ditetapkan penyelenggara. Mahasiswa disarankan memantau website resmi.",
+        "Informasi lebih lanjut mengenai Beasiswa Djarum Plus dapat diperoleh melalui website resmi Djarum Beasiswa Plus atau bagian kemahasiswaan UNDANA."
+      ]
+    },
+    {
+      "tag": "Beasiswa_KSE",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "timeline beasiswa kse",
+        "bagaimana daftar kse",
+        "cara daftar beswan",
+        "alur pendaftaran kse",
+        "proses seleksi kse",
+        "proses pendaftaran kse"
+      ],
+      "responses": [
+        "Beasiswa Karya Salemba Empat (KSE) ditujukan bagi mahasiswa S1 minimal semester 2, belum menikah, dan tidak sedang menerima beasiswa lain.",
+        "Pendaftaran Beasiswa KSE dilakukan secara online melalui website beasiswa.or.id. Mahasiswa mengisi data diri, mengunggah dokumen, video perkenalan, dan esai.",
+        "Jadwal pendaftaran Beasiswa KSE Tahun Akademik 2025/2026 di UNDANA dibuka 6 Maret 2025 hingga 15 Maret 2025. Setelah itu, peserta mengikuti seleksi administrasi dan wawancara.",
+        "Beasiswa Karya Salemba Empat (KSE) adalah beasiswa dari Yayasan Karya Salemba Empat untuk mahasiswa S1 dari keluarga kurang mampu.",
+        "Syarat Beasiswa KSE: mahasiswa aktif minimal semester 2, belum menikah, tidak sedang menerima beasiswa lain, dan memiliki prestasi akademik baik.",
+        "Pendaftaran Beasiswa KSE dilakukan secara online melalui website resmi beasiswa.or.id dengan mengisi data diri dan mengunggah dokumen.",
+        "Dokumen pendaftaran Beasiswa KSE meliputi: KTP, KK, KHS, surat keterangan penghasilan orang tua, dan surat keterangan tidak menerima beasiswa lain.",
+        "Seleksi Beasiswa KSE meliputi seleksi administrasi, wawancara, dan verifikasi dokumen. Peserta yang lolos akan diumumkan sesuai jadwal.",
+        "Penerima Beasiswa KSE mendapatkan bantuan biaya pendidikan dan pembinaan karakter melalui kegiatan yang diselenggarakan yayasan.",
+        "Informasi lebih lanjut mengenai Beasiswa KSE dapat diperoleh melalui website resmi beasiswa.or.id atau bagian kemahasiswaan UNDANA."
+      ]
+    },
+    {
+      "tag": "Beasiswa_Jadwal",
+      "kategori": "Beasiswa",
+      "patterns": [
+        "pencairan beasiswa",
+        "pengumuman beasiswa",
+        "kapan dana masuk",
+        "jadwal pendaftaran beasiswa",
+        "beasiswa dibuka bulan apa",
+        "info jadwal beasiswa"
+      ],
+      "responses": [
+        "Jadwal pendaftaran beasiswa mengikuti pengumuman resmi dari universitas atau penyelenggara beasiswa.",
+        "Hasil seleksi beasiswa diumumkan sesuai jadwal yang telah ditetapkan oleh penyelenggara program.",
+        "Pencairan dana beasiswa mengikuti jadwal dan mekanisme yang ditentukan oleh penyelenggara program beasiswa.",
+        "Perpanjangan beasiswa mengikuti ketentuan masing-masing program dan biasanya mempertimbangkan pemenuhan persyaratan akademik maupun administrasi.",
+        "Jadwal pendaftaran beasiswa di UNDANA berbeda-beda tergantung program. Mahasiswa disarankan memantau pengumuman resmi secara berkala.",
+        "Beasiswa KIP Kuliah biasanya dibuka pada awal tahun ajaran. Beasiswa GenBI, Djarum, dan KSE memiliki jadwal masing-masing sesuai penyelenggara.",
+        "Pengumuman hasil seleksi beasiswa diumumkan sesuai jadwal yang ditetapkan penyelenggara. Mahasiswa dapat mengecek melalui website resmi atau bagian kemahasiswaan.",
+        "Pencairan dana beasiswa mengikuti jadwal dan mekanisme dari penyelenggara. Untuk KIP Kuliah, pencairan dilakukan melalui rekening mahasiswa.",
+        "Jika beasiswa belum cair sesuai jadwal, mahasiswa dapat menghubungi bagian kemahasiswaan atau pengelola beasiswa untuk menanyakan status.",
+        "Perpanjangan beasiswa dilakukan dengan memenuhi persyaratan akademik dan administrasi. Mahasiswa disarankan menjaga IPK dan melengkapi dokumen tepat waktu."
+      ]
+    }
+  ]
+}
